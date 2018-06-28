@@ -32,7 +32,7 @@ the educational sector.
 
 The anticipated audience for the documents produced by this Working Group
 includes developers, deployers, and designers of online services and
-network devices that act on behalf of individuals in the educational sector.
+network devices that act on behalf of organisations in the educational sector.
 The group also anticipates gathering input from individual users of online
 services in order to respond to their needs and preferences.
 

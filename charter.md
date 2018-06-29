@@ -64,15 +64,17 @@ of the drafts (not less than three).
 ### Related work and liaison relationships
 
 #### Related work
-* The JRA3T3 task force of GEANT4-2
+* OpenID Connect Federation
 * REFEDS OIDCre Working Group
 
 #### Liaison relationships
+* OIDF Federations Working Group
 * REFEDS (the Research and Education FEDerations group)
 * The eduGAIN Steering Group
 * CACTI, Community Architecture Committee for Trust and Identity
 * AARC - Authentication and Authorization for Research Collaboration
 * Internet2 OIDC-OAuth Deployment Working Group
+* The JRA3T3 task force of GEANT4-2
 
 ### Proposers
 * TBD

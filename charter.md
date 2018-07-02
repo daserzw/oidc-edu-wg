@@ -66,13 +66,13 @@ feedback and comments in series of iterations of the drafts (not less than three
 * REFEDS OIDCre Working Group
 
 #### Liaison relationships
-* OIDF Federations Working Group
-* REFEDS (the Research and Education FEDerations group)
-* The eduGAIN Steering Group
-* CACTI, Community Architecture Committee for Trust and Identity
-* AARC - Authentication and Authorization for Research Collaboration
-* Internet2 OIDC-OAuth Deployment Working Group
-* The JRA3T3 task force of GEANT4-2
+* OIDF Federations Working Group [1]
+* REFEDs (the Research and Education FEDerations group) [REFEDs]
+* The eduGAIN Steering Group [eduGAIN]
+* CACTI, Community Architecture Committee for Trust and Identity of Internet2 [CACTI] 
+* AARC - The Authentication and Authorization for Research Collaboration project [AARC] 
+* OIDC-OAuth Deployment Working Group of Internet2 [I2OIDC]
+* The GEANT4 project [GEANT]
 
 ### Proposers
 * TBD
@@ -81,5 +81,14 @@ feedback and comments in series of iterations of the drafts (not less than three
 #### OIDCre Working Group
 * "White Paper for implementation of mappings between SAML 2.0 and OpenID
    Connect in Research and Education"
+
+### References
+[1]
+[REFEDs] https://refeds.org/
+[eduGAIN] https://edugain.org/
+[CACTI] https://spaces.internet2.edu/display/CACTI/CACTI+-+Community+Architecture+Committee+for+Trust+and+Identity+Home
+[AARC] https://aarc-project.eu/
+[I2OIDC] https://spaces.internet2.edu/display/ODWG/OIDC-OAuth+Deployment+Working+Group+Home
+[GEANT] https://www.geant.org/Projects/GEANT_Project_GN4
 
 

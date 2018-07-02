@@ -53,10 +53,9 @@ The work will be considered complete once it is apparent that maximal
 consensus on the drafts has been achieved, consistent with the purpose
 and scope of the charter, interoperability with at least two independently
 developed implementations of software based on the profiles has been
-demonstrated, and the bodies of the international educational organizations
-involved in the development has been given the opportunity to express
-a consistent number of feedbacks and comments in series of iterations
-of the drafts (not less than three). 
+demonstrated, and the bodies of international organizations relevant in R&E
+involved in the development have been given the opportunity to consistently express
+feedback and comments in series of iterations of the drafts (not less than three). 
 
 ## Background Information
 

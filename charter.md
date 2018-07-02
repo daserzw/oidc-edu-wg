@@ -1,27 +1,26 @@
-# Education WG Draft Charter
+# Research and Education WG Draft Charter
 
 ## 1. Working Group Name
 
-Education Working Group (edu)
+Research and Education Working Group (edu)
 
 ## 2. Purpose
 
 The purpose of this working group is to develop a set of profiles of the
 OpenID Connect specifications to ease the adoption of OpenID Connect in the
-educational sector. The profiles will take into account the existant
-practices of identity management in the educational sector, the current
-international standards to represent users that belongs to educational
-instutions, as well as the international trust fabric based on research
-and education identity federations.
+reseach and education (R&E) sector. The profiles will take into account the existant
+practices of identity management in the reseach and education sector, the current
+international standards to represent users that belongs to R&E
+instutions, as well as the international trust fabric based on R&E identity federations.
 
 ## 3. Scope
 
 * Develop a profile for OpenID Connect with specific requirements for
 security, trust and interoperability.
 * Develop a profile for extending OpenID Connect entity's metadata to
-support policy frameworks used in the educational sector.
+support policy frameworks used in the R&E sector.
 * Develop a profile for the use of a specific set of claims related to
-the educational sector.
+the R&E sector.
 
 ## 4. Proposed Specifications
 
@@ -33,10 +32,10 @@ the educational sector.
 
 The anticipated audience for the documents produced by this Working Group
 includes developers, deployers, and designers of online services and
-network devices that act on behalf of organisations in the educational
+network devices that act on behalf of organisations in the R&E
 sector.
 The group also anticipates gathering input from identity specialists from
-educational organizations in order to respond to their requirements.
+R&E organizations in order to respond to their requirements.
 
 ## 6. Language
 
@@ -54,10 +53,9 @@ The work will be considered complete once it is apparent that maximal
 consensus on the drafts has been achieved, consistent with the purpose
 and scope of the charter, interoperability with at least two independently
 developed implementations of software based on the profiles has been
-demonstrated, and the bodies of the international educational organizations
-involved in the development has been given the opportunity to express
-a consistent number of feedbacks and comments in series of iterations
-of the drafts (not less than three). 
+demonstrated, and the bodies of international organizations relevant in R&E
+involved in the development have been given the opportunity to consistently express
+feedback and comments in series of iterations of the drafts (not less than three). 
 
 ## Background Information
 
@@ -68,13 +66,13 @@ of the drafts (not less than three).
 * REFEDS OIDCre Working Group
 
 #### Liaison relationships
-* OIDF Federations Working Group
-* REFEDS (the Research and Education FEDerations group)
-* The eduGAIN Steering Group
-* CACTI, Community Architecture Committee for Trust and Identity
-* AARC - Authentication and Authorization for Research Collaboration
-* Internet2 OIDC-OAuth Deployment Working Group
-* The JRA3T3 task force of GEANT4-2
+* OIDF Federations Working Group [1]
+* REFEDs (the Research and Education FEDerations group) [REFEDs]
+* The eduGAIN Steering Group [eduGAIN]
+* CACTI, Community Architecture Committee for Trust and Identity of Internet2 [CACTI] 
+* AARC - The Authentication and Authorization for Research Collaboration project [AARC] 
+* OIDC-OAuth Deployment Working Group of Internet2 [I2OIDC]
+* The GEANT4 project [GEANT]
 
 ### Proposers
 * TBD
@@ -83,5 +81,14 @@ of the drafts (not less than three).
 #### OIDCre Working Group
 * "White Paper for implementation of mappings between SAML 2.0 and OpenID
    Connect in Research and Education"
+
+### References
+[1]
+[REFEDs] https://refeds.org/
+[eduGAIN] https://edugain.org/
+[CACTI] https://spaces.internet2.edu/display/CACTI/CACTI+-+Community+Architecture+Committee+for+Trust+and+Identity+Home
+[AARC] https://aarc-project.eu/
+[I2OIDC] https://spaces.internet2.edu/display/ODWG/OIDC-OAuth+Deployment+Working+Group+Home
+[GEANT] https://www.geant.org/Projects/GEANT_Project_GN4
 
 

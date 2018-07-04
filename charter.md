@@ -66,8 +66,8 @@ feedback and comments in series of iterations of the drafts (not less than three
 * REFEDS OIDCre Working Group
 
 #### Liaison relationships
-* OIDF Federations Working Group [1]
-* REFEDs (the Research and Education FEDerations group) [REFEDs]
+* OIDF Connect Working Group [OIDF-Connect]
+* REFEDS (the Research and Education FEDerations group) [REFEDS]
 * The eduGAIN Steering Group [eduGAIN]
 * CACTI, Community Architecture Committee for Trust and Identity of Internet2 [CACTI] 
 * AARC - The Authentication and Authorization for Research Collaboration project [AARC] 
@@ -83,12 +83,11 @@ feedback and comments in series of iterations of the drafts (not less than three
    Connect in Research and Education"
 
 ### References
-[1]
-[REFEDs] https://refeds.org/
-[eduGAIN] https://edugain.org/
-[CACTI] https://spaces.internet2.edu/display/CACTI/CACTI+-+Community+Architecture+Committee+for+Trust+and+Identity+Home
-[AARC] https://aarc-project.eu/
-[I2OIDC] https://spaces.internet2.edu/display/ODWG/OIDC-OAuth+Deployment+Working+Group+Home
-[GEANT] https://www.geant.org/Projects/GEANT_Project_GN4
-
+[OIDF-Connect] https://openid.net/wg/connect     
+[REFEDS] https://refeds.org
+[eduGAIN] https://edugain.org>  
+[CACTI] https://spaces.internet2.edu/display/CACTI/CACTI+-+Community+Architecture+Committee+for+Trust+and+Identity+Home  
+[AARC] https://aarc-project.eu  
+[I2OIDC] https://spaces.internet2.edu/display/ODWG/OIDC-OAuth+Deployment+Working+Group+Home  
+[GEANT] https://www.geant.org/Projects/GEANT_Project_GN4  
 

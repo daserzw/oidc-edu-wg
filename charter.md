@@ -62,7 +62,7 @@ feedback and comments in series of iterations of the drafts (not less than three
 ### Related work and liaison relationships
 
 #### Related work
-* OpenID Connect Federation
+* OpenID Connect Federation specification 
 * REFEDS OIDCre Working Group
 
 #### Liaison relationships
@@ -78,16 +78,22 @@ feedback and comments in series of iterations of the drafts (not less than three
 * TBD
 
 ### Anticipated contributions
-#### OIDCre Working Group
+#### REFEDS OIDCre Working Group
 * "White Paper for implementation of mappings between SAML 2.0 and OpenID
    Connect in Research and Education"
 
 ### References
-[OIDF-Connect] https://openid.net/wg/connect     
+[OIDF-Connect] https://openid.net/wg/connect
+
 [REFEDS] https://refeds.org
-[eduGAIN] https://edugain.org>  
+
+[eduGAIN] https://edugain.org>
+
 [CACTI] https://spaces.internet2.edu/display/CACTI/CACTI+-+Community+Architecture+Committee+for+Trust+and+Identity+Home  
-[AARC] https://aarc-project.eu  
-[I2OIDC] https://spaces.internet2.edu/display/ODWG/OIDC-OAuth+Deployment+Working+Group+Home  
+
+[AARC] https://aarc-project.eu
+
+[I2OIDC] https://spaces.internet2.edu/display/ODWG/OIDC-OAuth+Deployment+Working+Group+Home
+
 [GEANT] https://www.geant.org/Projects/GEANT_Project_GN4  
 

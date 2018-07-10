@@ -16,7 +16,7 @@ instutions, as well as the international trust fabric based on R&E identity fede
 ## 3. Scope
 
 * Develop a profile for OpenID Connect with specific requirements for
-security, trust and interoperability.
+security, trust and interoperability in the R&E sector.
 * Develop a profile for extending OpenID Connect entity's metadata to
 support policy frameworks used in the R&E sector.
 * Develop a profile for the use of a specific set of claims related to
@@ -75,7 +75,12 @@ feedback and comments in series of iterations of the drafts (not less than three
 * The GEANT4 project [GEANT]
 
 ### Proposers
-* TBD
+* Niels van Djik, SURFnet
+* Nathan Dors, University of Washington
+* Roland Hedberg, Independent
+* Maarten Kremers, SURFnet
+* Chris Phillips, Canarie
+* Davide Vaghetti, GARR
 
 ### Anticipated contributions
 #### REFEDS OIDCre Working Group

@@ -81,6 +81,7 @@ feedback and comments in series of iterations of the drafts (not less than three
 * Maarten Kremers, SURFnet
 * Chris Phillips, Canarie
 * Davide Vaghetti, GARR
+* Bradley Beddoes, Australian Access Federation
 
 ### Anticipated contributions
 #### REFEDS OIDCre Working Group

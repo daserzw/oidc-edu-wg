@@ -17,10 +17,10 @@ institutions, as well as the international trust fabric based on R&E identity fe
 
 * Develop a profile for OpenID Connect with specific requirements for
 security, trust and interoperability in the R&E sector.
-* Develop a profile for extending OpenID Connect entity's metadata to
-support policy frameworks used in the R&E sector.
 * Develop a profile for the use of a specific set of claims related to
 the R&E sector.
+* Develop a profile for extending OpenID Connect entity's metadata to
+support policy frameworks used in the R&E sector.
 
 ## 4. Proposed Specifications
 

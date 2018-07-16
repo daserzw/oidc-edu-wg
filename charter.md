@@ -8,7 +8,7 @@ Research and Education Working Group (edu)
 
 The purpose of this working group is to develop a set of profiles of the
 OpenID Connect specifications to ease the adoption of OpenID Connect in the
-research and education (R&E) sector. The profiles will take into account the existant
+research and education (R&E) sector. The profiles will take into account the existing
 practices of federated identity management in the research and education sector, the current
 international standards to represent users that belong to R&E
 institutions, as well as the international trust fabric based on R&E identity federations.
@@ -93,7 +93,7 @@ feedback and comments in series of iterations of the drafts (not less than three
 
 [REFEDS] https://refeds.org
 
-[eduGAIN] https://edugain.org>
+[eduGAIN] https://edugain.org
 
 [CACTI] https://spaces.internet2.edu/display/CACTI/CACTI+-+Community+Architecture+Committee+for+Trust+and+Identity+Home  
 

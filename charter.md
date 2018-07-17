@@ -85,6 +85,7 @@ drafts (not less than three).
 * Chris Phillips, Canarie
 * Davide Vaghetti, GARR
 * Bradley Beddoes, Australian Access Federation
+* Mischa Salle, NIKHEF
 
 ### Anticipated contributions
 #### REFEDS OIDCre Working Group

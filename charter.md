@@ -86,6 +86,7 @@ drafts (not less than three).
 * Davide Vaghetti, GARR
 * Bradley Beddoes, Australian Access Federation
 * Mischa Salle, NIKHEF
+* Nicholas Roy, InCommon
 
 ### Anticipated contributions
 #### REFEDS OIDCre Working Group

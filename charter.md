@@ -91,7 +91,8 @@ drafts (not less than three).
 ### Anticipated contributions
 #### REFEDS OIDCre Working Group
 * "White Paper for implementation of mappings between SAML 2.0 and OpenID
-   Connect in Research and Education"
+   Connect in Research and Education" [oidc-saml20-edu-map] 
+
 
 ### References
 [OIDF-Connect] https://openid.net/wg/connect
@@ -108,3 +109,4 @@ drafts (not less than three).
 
 [GEANT] https://www.geant.org/Projects/GEANT_Project_GN4  
 
+[oidc-saml20-edu-map] https://wiki.refeds.org/display/GROUPS/OpenID+Connect+SAML+mapping

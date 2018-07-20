@@ -89,6 +89,8 @@ drafts (not less than three).
 * Nicholas Roy, InCommon
 * Christos Kanellopoulos, GÉANT
 * Wolfgang Pempe, DFN
+* Constantin Sclifos, RENAM
+* Hervé Bourgault, RENATER
 
 ### Anticipated contributions
 #### REFEDS OIDCre Working Group

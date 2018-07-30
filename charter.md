@@ -16,18 +16,27 @@ based on R&E identity federations.
 
 ## 3. Scope
 
-* Develop a profile for OpenID Connect with specific requirements for
-security, trust and interoperability in the R&E sector.
+* Develop a layered set of profiles for OAuth2 and OpenID Connect with 
+specific requirements for security, trust and interoperability in the 
+R&E sector.
 * Develop a profile for the use of a specific set of claims related to
 the R&E sector.
 * Develop a profile for extending OpenID Connect entity's metadata to
 support policy frameworks used in the R&E sector.
+* Develop a profile and non-normative 
 
 ## 4. Proposed Specifications
 
- * edu profile for OpenID Connect.
- * edu claims for OpenID Connect.
- * entity metadata extension for OpenID Connect.
+ * Edu profile for OAuth2.
+ * Edu profile for OpenID Connect.
+ * Edu claims for OpenID Connect.
+ * Entity metadata extension for OpenID Connect.
+ 
+ The working group will also produce non-normative materials on the 
+ following subjects:
+ 
+ * R&E Authentication and Authorization use cases.
+ * Guidelines for the use of OAuth2 and OIDC in the R&E sector.
  
 ## 5. Anticipated audience or users
 
@@ -96,7 +105,6 @@ drafts (not less than three).
 #### REFEDS OIDCre Working Group
 * "White Paper for implementation of mappings between SAML 2.0 and OpenID
    Connect in Research and Education" [oidc-saml20-edu-map] 
-
 
 ### References
 [OIDF-Connect] https://openid.net/wg/connect

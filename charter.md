@@ -23,7 +23,7 @@ R&E sector.
 the R&E sector.
 * Develop a profile for extending OpenID Connect entity's metadata to
 support policy frameworks used in the R&E sector.
-* Develop a profile and non-normative 
+
 
 ## 4. Proposed Specifications
 

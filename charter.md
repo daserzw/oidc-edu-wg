@@ -91,7 +91,7 @@ drafts (not less than three).
 * Nathan Dors, University of Washington
 * Roland Hedberg, Independent
 * Maarten Kremers, SURFnet
-* Chris Phillips, Canarie
+* Chris Phillips, CANARIE
 * Davide Vaghetti, GARR
 * Bradley Beddoes, Australian Access Federation
 * Mischa Salle, NIKHEF
@@ -100,6 +100,7 @@ drafts (not less than three).
 * Wolfgang Pempe, DFN
 * Constantin Sclifos, RENAM
 * Hervé Bourgault, RENATER
+* John Bradley (ve7jtb@ve7jtb.com), Yubico
 
 ### Anticipated contributions
 #### REFEDS OIDCre Working Group

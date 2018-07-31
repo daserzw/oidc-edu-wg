@@ -32,7 +32,7 @@
 
 Doodle poll to select a date for the meeting will close in few days: 
 
-       https://doodle.com/poll/dwsmk6xdbn86p3ud
+ https://doodle.com/poll/dwsmk6xdbn86p3ud
 
 The best candidate for now is the 28th of August at 4:00pm CEST 
 (2:00pm UTC).

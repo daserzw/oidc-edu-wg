@@ -1,25 +1,7 @@
-# 20180718
+# Meeting Notes
 
-## Participants
-* Chris Philips
-* Christos Knaellopoulos
-* Davide Vaghetti
-* Elena Torroglosa
-* Mischa Sallé
-* Wolfgang Pempe
-
-## Notes
-* Chris asked about scope being more, such as An Oauth2 Profile for Securing APIs -- conclusion was let's take it to the OIDCre list.
-* Plan to have this done by the end of August
-
-### Actions
-* send an explicit invitation to REFEDS for endorsing the proposal - desired outcome - more organizations/people endorsing the WG activity lends merit to the work. Point out that being a proposer does not involve any committments to work in the WG.
-* Chris+Davide to bring this activity to eduGAIN-SG on next call. Chris to raise with Brook (Chair)
-* create a Q&A document about the proposed specifications to both anticipate questions and to get note of the community feedback through the ml.
-
-### Next meetings
-* end of july/beginng of August (week of July 30)
-* mid to late august.
+* [20180731 meeting](#20180731)
+* [20180718 meeting](#20180718)
 
 # 20180731
 
@@ -56,3 +38,26 @@ The best candidate for now is the 28th of August at 4:00pm CEST
 (2:00pm UTC).
 We will send a reminder, and the final date will be communicated on 
 the oidcre@lists.geant.org mailing list.
+
+# 20180718
+
+## Participants
+* Chris Philips
+* Christos Knaellopoulos
+* Davide Vaghetti
+* Elena Torroglosa
+* Mischa Sallé
+* Wolfgang Pempe
+
+## Notes
+* Chris asked about scope being more, such as An Oauth2 Profile for Securing APIs -- conclusion was let's take it to the OIDCre list.
+* Plan to have this done by the end of August
+
+### Actions
+* send an explicit invitation to REFEDS for endorsing the proposal - desired outcome - more organizations/people endorsing the WG activity lends merit to the work. Point out that being a proposer does not involve any committments to work in the WG.
+* Chris+Davide to bring this activity to eduGAIN-SG on next call. Chris to raise with Brook (Chair)
+* create a Q&A document about the proposed specifications to both anticipate questions and to get note of the community feedback through the ml.
+
+### Next meetings
+* end of july/beginng of August (week of July 30)
+* mid to late august.

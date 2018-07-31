@@ -24,19 +24,11 @@ the R&E sector.
 * Develop a profile for extending OpenID Connect entity's metadata to
 support policy frameworks used in the R&E sector.
 
-
 ## 4. Proposed Specifications
 
- * Edu profile for OAuth2.
  * Edu profile for OpenID Connect.
  * Edu claims for OpenID Connect.
  * Entity metadata extension for OpenID Connect.
- 
- The working group will also produce non-normative materials on the 
- following subjects:
- 
- * R&E Authentication and Authorization use cases.
- * Guidelines for the use of OAuth2 and OIDC in the R&E sector.
  
 ## 5. Anticipated audience or users
 
@@ -101,6 +93,7 @@ drafts (not less than three).
 * Constantin Sclifos, RENAM
 * Hervé Bourgault, RENATER
 * John Bradley (ve7jtb@ve7jtb.com), Yubico
+* Steffen Klemer (DFN)
 
 ### Anticipated contributions
 #### REFEDS OIDCre Working Group

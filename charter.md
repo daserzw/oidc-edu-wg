@@ -16,9 +16,8 @@ based on R&E identity federations.
 
 ## 3. Scope
 
-* Develop a layered set of profiles for OAuth2 and OpenID Connect with 
-specific requirements for security, trust and interoperability in the 
-R&E sector.
+* Develop a profile for OpenID Connect with specific requirements for
+security, trust and interoperability in the R&E sector.
 * Develop a profile for the use of a specific set of claims related to
 the R&E sector.
 * Develop a profile for extending OpenID Connect entity's metadata to

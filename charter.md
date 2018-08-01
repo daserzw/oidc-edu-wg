@@ -93,6 +93,7 @@ drafts (not less than three).
 * Hervé Bourgault, RENATER
 * John Bradley (ve7jtb@ve7jtb.com), Yubico
 * Steffen Klemer (DFN)
+* Klaas Wirenga, GÉANT
 
 ### Anticipated contributions
 #### REFEDS OIDCre Working Group

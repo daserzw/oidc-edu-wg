@@ -92,8 +92,10 @@ drafts (not less than three).
 * Constantin Sclifos, RENAM
 * Hervé Bourgault, RENATER
 * John Bradley (ve7jtb@ve7jtb.com), Yubico
-* Steffen Klemer (DFN)
+* Steffen Klemer, DFN
 * Klaas Wirenga, GÉANT
+* Jule Ziegler, LRZ
+* Uros Stevanovic, KIT 
 
 ### Anticipated contributions
 #### REFEDS OIDCre Working Group

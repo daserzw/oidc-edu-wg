@@ -96,6 +96,7 @@ drafts (not less than three).
 * Klaas Wirenga, GÉANT
 * Jule Ziegler, LRZ
 * Uros Stevanovic, KIT 
+* Jens Jensen, STFC
 
 ### Anticipated contributions
 #### REFEDS OIDCre Working Group

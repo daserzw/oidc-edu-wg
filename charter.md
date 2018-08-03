@@ -97,6 +97,7 @@ drafts (not less than three).
 * Jule Ziegler, LRZ
 * Uros Stevanovic, KIT 
 * Jens Jensen, STFC
+* Andreas Åkre Solberg, UNINETT AS
 
 ### Anticipated contributions
 #### REFEDS OIDCre Working Group

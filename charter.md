@@ -98,6 +98,7 @@ drafts (not less than three).
 * Uros Stevanovic, KIT 
 * Jens Jensen, STFC
 * Andreas Åkre Solberg, UNINETT AS
+* Andrea Ceccanti, INFN
 
 ### Anticipated contributions
 #### REFEDS OIDCre Working Group

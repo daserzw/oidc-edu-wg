@@ -2,13 +2,13 @@
 
 ## 1. Working Group Name
 
-Research and Education Working Group (edu)
+Research and Education Working Group (R&E)
 
 ## 2. Purpose
 
 The purpose of this working group is to develop a set of profiles for the
 OpenID Connect specifications to ease the adoption of OpenID Connect in
-the research and education (R&E) sector. The profiles will take into
+the Research and Education (R&E) sector. The profiles will take into
 account existing practices of federated identity management in the R&E
 sector, current international standards to represent users that belong
 to R&E institutions, as well as the existing international trust fabric
@@ -25,8 +25,8 @@ support policy frameworks used in the R&E sector.
 
 ## 4. Proposed Specifications
 
- * Edu profile for OpenID Connect.
- * Edu claims for OpenID Connect.
+ * R&E profile for OpenID Connect.
+ * R&E claims for OpenID Connect.
  * Entity metadata extension for OpenID Connect.
  
 ## 5. Anticipated audience or users

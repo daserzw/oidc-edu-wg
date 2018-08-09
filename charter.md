@@ -99,6 +99,8 @@ drafts (not less than three).
 * Jens Jensen, STFC
 * Andreas Åkre Solberg, UNINETT AS
 * Andrea Ceccanti, INFN
+* Peter Gietz, DAASI International
+* David Hübner, DAASI International
 
 ### Anticipated contributions
 #### REFEDS OIDCre Working Group

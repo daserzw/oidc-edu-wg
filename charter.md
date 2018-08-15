@@ -32,7 +32,7 @@ support policy frameworks used in the R&E sector.
 ## 5. Anticipated audience or users
 
 The anticipated audience for the documents produced by this Working Group
-includes developers, deployers, and designers of online services and
+includes developers, deployers, federation operators, and designers of online services and
 network agents and devices that can act on behalf of users and
 organisations in the R&E sector.
 

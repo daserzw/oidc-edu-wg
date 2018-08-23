@@ -101,6 +101,7 @@ drafts (not less than three).
 * Andrea Ceccanti, INFN
 * Peter Gietz, DAASI International
 * David Hübner, DAASI International
+* Nicolas Liampotis, GRNET
 
 ### Anticipated contributions
 #### REFEDS OIDCre Working Group

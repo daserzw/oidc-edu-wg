@@ -17,7 +17,7 @@ based on R&E identity federations.
 ## 3. Scope
 
 * Develop a profile for OpenID Connect with specific requirements for
-security, trust and interoperability in the R&E sector.
+security, multi-lateral trust and interoperability in the R&E sector.
 * Develop a profile for the use of a specific set of claims related to
 the R&E sector.
 * Develop a profile for extending OpenID Connect entity's metadata to
@@ -25,14 +25,14 @@ support policy frameworks used in the R&E sector.
 
 ## 4. Proposed Specifications
 
- * R&E profile for OpenID Connect.
+ * one or more R&E profiles for OpenID Connect.
  * R&E claims for OpenID Connect.
  * Entity metadata extension for OpenID Connect.
  
 ## 5. Anticipated audience or users
 
 The anticipated audience for the documents produced by this Working Group
-includes developers, deployers, and designers of online services and
+includes developers, deployers, federation operators, and designers of online services and
 network agents and devices that can act on behalf of users and
 organisations in the R&E sector.
 
@@ -66,6 +66,7 @@ drafts (not less than three).
 
 #### Related work
 * OpenID Connect Federation specification 
+* JWT Federations proposal [JWTfed]
 * REFEDS OIDCre Working Group
 
 #### Liaison relationships
@@ -102,6 +103,7 @@ drafts (not less than three).
 * Peter Gietz, DAASI International
 * David Hübner, DAASI International
 * Elena Torroglosa, University of Murcia
+* Nicolas Liampotis, GRNET
 
 ### Anticipated contributions
 #### REFEDS OIDCre Working Group
@@ -110,6 +112,8 @@ drafts (not less than three).
 
 ### References
 [OIDF-Connect] https://openid.net/wg/connect
+
+[JWTfed] https://oauth.no/jwtfederations/
 
 [REFEDS] https://refeds.org
 

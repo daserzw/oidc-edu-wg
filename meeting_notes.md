@@ -1,7 +1,39 @@
 # Meeting Notes
 
+* [20180828 meeting](#20180828)
 * [20180731 meeting](#20180731)
 * [20180718 meeting](#20180718)
+
+
+# 20180828
+
+## Participants:
+
+* Davide Vaghetti (GARR)
+* Chris Phillips (CANARIE)
+* Constantin Sclifos (RENAM)
+* David Hübner (DAASI, DARIAH)
+* Marcus Hardt (KIT)
+* Nathan Dors (University Washington)
+* Nicolas Liampotis (GRNET)
+* Roland Hedberg (Google, GÉANT, SWAMID, OIDF)
+* Steffen Klemer (DFN)
+
+## Notes
+
+* intruduction round
+* discussion about PR #18 -- add Federation Operators as anticipated audience. No talk against this. Reservations about the idea to ask for the agreement of FedOps in paragraph 8 which is mentioned in the comment of the PR as this would be very binding and to specific. The idea of this is already covered in the phrase "bodies of international organizations relevant in R&E". 
+
+* Discussion about the competing draf to oidc-fed called 'JWT federation' by Andreas Solberg. This could be used for any type of protocol (not only oauth) and simplifies the process. Mostly be getting rid of client registration. This was also discussed at the last OIDF connect a/b telco. Roland: JWT federation should be tested with different styles of federations as the spec is designed with one specific federation model in mind. Should the WG consider multiple OID connect types / profiles or only one? (should 4. Proposed Specifications bullet point #1 be in plural or not?). Davide: "In the very end we should only have one profile." Chris (and others): "There might be multiple use cases." Steffen, Chris and others: "There is still the 'maximum consensus' part that should lead to agreement. It's more important to get the WG going and invite more people".
+
+* We should mentioned JWT Federation in the related work.
+
+* Discussion about federations and authorization to (non-web) REST interfaces, similar to "consent" use case?
+* Chris: "multi lateral" is missing in the definition of federation; possible opportunity to differentiate from bi-lateral. Discussion if it should go to section 2 or 3. Agreement to talk about "multi-lateral trust" in sec 3.
+
+* time frame: 10 days from now to collect more comments until Sep, 7th.
+* Next call: Sep, 7th 2pm GMT.
+
 
 # 20180731
 

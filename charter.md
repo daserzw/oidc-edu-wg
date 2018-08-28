@@ -66,6 +66,7 @@ drafts (not less than three).
 
 #### Related work
 * OpenID Connect Federation specification 
+* JWT Federations proposal [JWTfed]
 * REFEDS OIDCre Working Group
 
 #### Liaison relationships
@@ -110,6 +111,8 @@ drafts (not less than three).
 
 ### References
 [OIDF-Connect] https://openid.net/wg/connect
+
+[JWTfed] https://oauth.no/jwtfederations/
 
 [REFEDS] https://refeds.org
 

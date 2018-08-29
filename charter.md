@@ -6,7 +6,7 @@ Research and Education Working Group (R&E)
 
 ## 2. Purpose
 
-The purpose of this working group is to develop a set of profiles for the
+The purpose of this Working Group is to develop a set of profiles for the
 OpenID Connect specifications to ease the adoption of OpenID Connect in
 the Research and Education (R&E) sector. The profiles will take into
 account existing practices of federated identity management in the R&E
@@ -34,7 +34,7 @@ support policy frameworks used in the R&E sector.
 The anticipated audience for the documents produced by this Working Group
 includes developers, deployers, federation operators, and designers of online services and
 network agents and devices that can act on behalf of users and
-organisations in the R&E sector.
+organizations in the R&E sector.
 
 The group also anticipates gathering input from identity specialists from
 R&E organizations in order to respond to their requirements.
@@ -79,14 +79,14 @@ drafts (not less than three).
 * The GEANT4 project [GEANT]
 
 ### Proposers
-* Niels van Djik, SURFnet
+* Niels van Dijk, SURFnet
 * Nathan Dors, University of Washington
 * Roland Hedberg, Independent
 * Maarten Kremers, SURFnet
 * Chris Phillips, CANARIE
 * Davide Vaghetti, GARR
 * Bradley Beddoes, Australian Access Federation
-* Mischa Salle, NIKHEF
+* Mischa Sallé, NIKHEF
 * Nicholas Roy, InCommon
 * Christos Kanellopoulos, GÉANT
 * Wolfgang Pempe, DFN
@@ -94,7 +94,7 @@ drafts (not less than three).
 * Hervé Bourgault, RENATER
 * John Bradley (ve7jtb@ve7jtb.com), Yubico
 * Steffen Klemer, DFN
-* Klaas Wirenga, GÉANT
+* Klaas Wierenga, GÉANT
 * Jule Ziegler, LRZ
 * Uros Stevanovic, KIT 
 * Jens Jensen, STFC

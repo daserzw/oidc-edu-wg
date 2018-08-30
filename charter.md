@@ -18,15 +18,15 @@ based on R&E identity federations.
 
 * Develop a profile for OpenID Connect with specific requirements for
 security, multi-lateral trust and interoperability in the R&E sector.
-* Develop a profile for the use of a specific set of claims and scopes 
-related to the R&E sector.
+* Develop a profile for the use of a specific set of claims related to
+the R&E sector.
 * Develop a profile for extending OpenID Connect entity's metadata to
 support policy frameworks used in the R&E sector.
 
 ## 4. Proposed Specifications
 
  * one or more R&E profiles for OpenID Connect.
- * R&E claims and scopes for OpenID Connect.
+ * R&E claims for OpenID Connect.
  * Entity metadata extension for OpenID Connect.
  
 ## 5. Anticipated audience or users

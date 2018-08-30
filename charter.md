@@ -18,17 +18,16 @@ based on R&E identity federations.
 
 * Develop a profile for OpenID Connect with specific requirements for
 security, multi-lateral trust and interoperability in the R&E sector.
-* Develop a profile for the use of a specific set of claims related to
-the R&E sector.
+* Develop a profile for the use of a specific set of claims and scopes related tothe R&E sector.
 * Develop a profile for extending OpenID Connect entity's metadata to
 support policy frameworks used in the R&E sector.
 
 ## 4. Proposed Specifications
 
  * one or more R&E profiles for OpenID Connect.
- * R&E claims for OpenID Connect.
+ * R&E claims and scopes for OpenID Connect.
  * Entity metadata extension for OpenID Connect.
- 
+
 ## 5. Anticipated audience or users
 
 The anticipated audience for the documents produced by this Working Group
@@ -47,7 +46,7 @@ Work will be conducted in English.
 
 E-mail discussions on the working group mailing list, regular working
 group conference calls, and opportunistic face-to-face meetings when a
-significant number of active members are co-located. 
+significant number of active members are co-located.
 
 ## 8. Basis for determining when the work is completed
 
@@ -58,14 +57,14 @@ developed implementations of software based on the profiles has been
 demonstrated, and the bodies of international organizations relevant in
 R&E involved in the development have been given the opportunity to
 consistently express feedback and comments in series of iterations of the
-drafts (not less than three). 
+drafts (not less than three).
 
 ## Background Information
 
 ### Related work and liaison relationships
 
 #### Related work
-* OpenID Connect Federation specification 
+* OpenID Connect Federation specification
 * JWT Federations proposal [JWTfed]
 * REFEDS OIDCre Working Group
 
@@ -73,8 +72,8 @@ drafts (not less than three).
 * OIDF Connect Working Group [OIDF-Connect]
 * REFEDS (the Research and Education FEDerations group) [REFEDS]
 * The eduGAIN Steering Group [eduGAIN]
-* CACTI, Community Architecture Committee for Trust and Identity of Internet2 [CACTI] 
-* AARC - The Authentication and Authorization for Research Collaboration project [AARC] 
+* CACTI, Community Architecture Committee for Trust and Identity of Internet2 [CACTI]
+* AARC - The Authentication and Authorization for Research Collaboration project [AARC]
 * OIDC-OAuth Deployment Working Group of Internet2 [I2OIDC]
 * The GEANT4 project [GEANT]
 
@@ -96,7 +95,7 @@ drafts (not less than three).
 * Steffen Klemer, DFN
 * Klaas Wirenga, GÉANT
 * Jule Ziegler, LRZ
-* Uros Stevanovic, KIT 
+* Uros Stevanovic, KIT
 * Jens Jensen, STFC
 * Andreas Åkre Solberg, UNINETT AS
 * Andrea Ceccanti, INFN
@@ -108,7 +107,7 @@ drafts (not less than three).
 ### Anticipated contributions
 #### REFEDS OIDCre Working Group
 * "White Paper for implementation of mappings between SAML 2.0 and OpenID
-   Connect in Research and Education" [oidc-saml20-edu-map] 
+   Connect in Research and Education" [oidc-saml20-edu-map]
 
 ### References
 [OIDF-Connect] https://openid.net/wg/connect

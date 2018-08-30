@@ -2,13 +2,13 @@
 
 ## 1. Working Group Name
 
-Research and Education Working Group (edu)
+Research and Education Working Group (R&E)
 
 ## 2. Purpose
 
 The purpose of this working group is to develop a set of profiles for the
 OpenID Connect specifications to ease the adoption of OpenID Connect in
-the research and education (R&E) sector. The profiles will take into
+the Research and Education (R&E) sector. The profiles will take into
 account existing practices of federated identity management in the R&E
 sector, current international standards to represent users that belong
 to R&E institutions, as well as the existing international trust fabric
@@ -16,32 +16,23 @@ based on R&E identity federations.
 
 ## 3. Scope
 
-* Develop a layered set of profiles for OAuth2 and OpenID Connect with 
-specific requirements for security, trust and interoperability in the 
-R&E sector.
+* Develop a profile for OpenID Connect with specific requirements for
+security, multi-lateral trust and interoperability in the R&E sector.
 * Develop a profile for the use of a specific set of claims related to
 the R&E sector.
 * Develop a profile for extending OpenID Connect entity's metadata to
 support policy frameworks used in the R&E sector.
-* Develop a profile and non-normative 
 
 ## 4. Proposed Specifications
 
- * Edu profile for OAuth2.
- * Edu profile for OpenID Connect.
- * Edu claims for OpenID Connect.
+ * one or more R&E profiles for OpenID Connect.
+ * R&E claims for OpenID Connect.
  * Entity metadata extension for OpenID Connect.
- 
- The working group will also produce non-normative materials on the 
- following subjects:
- 
- * R&E Authentication and Authorization use cases.
- * Guidelines for the use of OAuth2 and OIDC in the R&E sector.
  
 ## 5. Anticipated audience or users
 
 The anticipated audience for the documents produced by this Working Group
-includes developers, deployers, and designers of online services and
+includes developers, deployers, federation operators, and designers of online services and
 network agents and devices that can act on behalf of users and
 organisations in the R&E sector.
 
@@ -75,6 +66,7 @@ drafts (not less than three).
 
 #### Related work
 * OpenID Connect Federation specification 
+* JWT Federations proposal [JWTfed]
 * REFEDS OIDCre Working Group
 
 #### Liaison relationships
@@ -91,7 +83,7 @@ drafts (not less than three).
 * Nathan Dors, University of Washington
 * Roland Hedberg, Independent
 * Maarten Kremers, SURFnet
-* Chris Phillips, Canarie
+* Chris Phillips, CANARIE
 * Davide Vaghetti, GARR
 * Bradley Beddoes, Australian Access Federation
 * Mischa Salle, NIKHEF
@@ -100,6 +92,18 @@ drafts (not less than three).
 * Wolfgang Pempe, DFN
 * Constantin Sclifos, RENAM
 * Hervé Bourgault, RENATER
+* John Bradley (ve7jtb@ve7jtb.com), Yubico
+* Steffen Klemer, DFN
+* Klaas Wirenga, GÉANT
+* Jule Ziegler, LRZ
+* Uros Stevanovic, KIT 
+* Jens Jensen, STFC
+* Andreas Åkre Solberg, UNINETT AS
+* Andrea Ceccanti, INFN
+* Peter Gietz, DAASI International
+* David Hübner, DAASI International
+* Elena Torroglosa, University of Murcia
+* Nicolas Liampotis, GRNET
 
 ### Anticipated contributions
 #### REFEDS OIDCre Working Group
@@ -108,6 +112,8 @@ drafts (not less than three).
 
 ### References
 [OIDF-Connect] https://openid.net/wg/connect
+
+[JWTfed] https://oauth.no/jwtfederations/
 
 [REFEDS] https://refeds.org
 

@@ -79,12 +79,12 @@ drafts (not less than three).
 * The GEANT4 project [GEANT]
 
 ### Proposers
+* Davide Vaghetti, GARR (Editor)
 * Niels van Dijk, SURFnet
 * Nathan Dors, University of Washington
 * Roland Hedberg, Independent
 * Maarten Kremers, SURFnet
 * Chris Phillips, CANARIE
-* Davide Vaghetti, GARR
 * Bradley Beddoes, Australian Access Federation
 * Mischa Sallé, NIKHEF
 * Nicholas Roy, InCommon

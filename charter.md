@@ -79,7 +79,7 @@ drafts (not less than three).
 * The GEANT4 project [GEANT]
 
 ### Proposers
-* Davide Vaghetti, GARR (Editor)
+* Davide Vaghetti <davide.vaghetti@garr.it>, GARR (Editor) 
 * Niels van Dijk, SURFnet
 * Nathan Dors, University of Washington
 * Roland Hedberg, Independent

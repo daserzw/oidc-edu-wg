@@ -25,7 +25,7 @@ support policy frameworks used in the R&E sector.
 
 ## 4. Proposed Specifications
 
- * one or more R&E profiles for OpenID Connect.
+ * One or more R&E profiles for OpenID Connect.
  * R&E claims and scopes for OpenID Connect.
  * Entity metadata extension for OpenID Connect.
  

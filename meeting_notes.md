@@ -17,8 +17,8 @@
 
 * Davide summarizes the changes (c.f. https://github.com/daserzw/oidc-edu-wg/commits/master ). No objections.
 * Talk about next steps according to https://openid.net/wordpress-content/uploads/2010/01/OpenID_Process_Document_December_2009_Final_Approved.pdf :
-** set the editor of the WG (done);
-** send the proposal to the specs@openid.net mailing list (done);
+  * set the editor of the WG (done);
+  * send the proposal to the specs@openid.net mailing list (done);
 * The work of this initial group is thereby concluded.
 
 # 20180828

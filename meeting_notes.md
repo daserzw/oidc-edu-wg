@@ -4,6 +4,21 @@
 * [20180731 meeting](#20180731)
 * [20180718 meeting](#20180718)
 
+# 20180907
+
+* Constantin Sclifos (RENAM)
+* Davide Vaghetti (GARR)
+* Jule Ziegler (DFN/LRZ)
+* Nicolas Liampotis (GRNET/AARC)
+* Steffen Klemer (DFN)
+
+## Notes
+
+* Davide summarizes the changes (c.f. https://github.com/daserzw/oidc-edu-wg/commits/master ). No objections.
+* Talk about next steps according to https://openid.net/wordpress-content/uploads/2010/01/OpenID_Process_Document_December_2009_Final_Approved.pdf :
+ * set the editor of the WG (done);
+ * send the proposal to the specs@openid.net mailing list (done);
+* The work of this initial group is thereby concluded.
 
 # 20180828
 

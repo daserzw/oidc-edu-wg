@@ -1,9 +1,70 @@
 # Meeting Notes
 
+* [20181001 meeting](#20181001)
 * [20180907 meeting](#20180907)
 * [20180828 meeting](#20180828)
 * [20180731 meeting](#20180731)
 * [20180718 meeting](#20180718)
+
+# 20181001
+* Chris Phillips - CANARIE
+* Constantin Sclifos (RENAM)
+* David Hübner  
+* David Langenberg  -uChicago
+* Jule Z.  – LRZ(?)
+* Maartin Kremers
+* Nathan Dors - Dir Identity uWash / OIDC +OAuth WG Chair I2
+* Nicolas Liampotis ( GRNet / AARC )
+* Niels van Dijk - SURFnet / GÉANT project, OIDCre REFEDs working group Chalr
+* Roland Hedberg
+* Sara Jeanes - Internet2 - collaborates with  svc providers + others
+* Nick Roy, Director of Technology/Strategy Internet2/InCommon
+
+## Notes:
+* Roundtable introduction of attendees & Interests of participants
+
+**Topic: Discussion for Preparing for the Oct 22 OIDF meeting held at Vmware day before IIW**
+Expectations: ~ 10min duration , about 4 slides
+Strawman:
+*	Who R&E are in magnitude, organizationally, and scale/reach
+* Assets available: talent, existing input work, 
+* Our challenges
+* Why OIDC R&E WG? Approach to work? What are the deliverables?
+* How to get involved
+
+**Presentation prep**
+Concluded with people attending the Oct22 session will meet during TechEx to fine tune presentation.
+Oct22nd attendees so far: Roland, Nick, Nathan.  No one person designated as presenter at this time.
+
+Expect questions like ‘Why isn’t the iGov profile sufficient?’ (ans from call: doesn’t address multi-lateral needs)
+
+**Topic: Collecting use cases and how to engage larger organizations**
+  Observation: 
+* Engaging with large organization on SAML specific access to cloud resources that don't interact with architectures that R&E use are tough.  To help with this we need to better understand how these large organization frameworks interact, at scale,  with the OIDC federation space.
+*	Unanswered question: will large services open up their trust framework to the R&E approach to trust ?
+*	Through interaction large organizations have  largely, these approaches we need to be aware of:
+**	Data of a few models then interface them
+**	Magnitude of adopters of a technique/style lend weight or merit to it
+
+
+**Topic: How does OIDC R&E WG contrast itself against other existing activities**
+Observations:
+*	Not realistic to think other groups will stop
+*	There will be places where topics will incubate/be discussed for best signal/noise outcome
+*	Do desire focus be on the work on the OIDF mailing list
+*	May be valuable for WGs to designate OIDF R&E WG attendee/reporter? (no consensus reached)
+*	Note that to participate in the OIDF individuals need to have personal membership or institutional membership (has low cost for some) and is a different style of contribution than usually experienced.
+
+**R&E WG Meeting times/details:**
+*	Suggested EU time friendly one week, other week Asia Pacific friendly.
+*	most work is driven to be on mailing list
+*	Meetings to be for higher bandwidth and moving key items forward
+* Tempo appears to be weekly meetings
+*	Observation @Nathan: Some of our(I2) working groups have a slow tempo because resources are scarce; work can only get done in two-week intervals; but this may not be true for OIDF R&E.
+
+
+
+
 
 # 20180907
 

@@ -123,8 +123,10 @@ array of objects, etc.) with the claims discovered in 1 and 2.
 
 
 # References
-[json-schema] 
+[json-schema] https://json-schema.org/
+
 [OpenID.Discovery] http://openid.net/specs/openid-connect-discovery-1_0.html
+
 [OpenID.Registration] https://openid.net/specs/openid-connect-registration-1_0.html
 
 # 20181205

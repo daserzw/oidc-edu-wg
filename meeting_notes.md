@@ -1,5 +1,131 @@
-* [20181119 meeting](#20181119)
+* [20181217 meeting](#20181217)
 * [20181205 meeting](#20181205)
+* [20181119 meeting](#20181119)
+
+# 20181217
+
+OIDF R&E meeting 2018-12-17
+
+Note taker: Davide Vaghetti
+
+## Attendees
+* Keith Hazelton
+* Nathan Dors
+* Mischa Salle
+* Nick Roy
+* Wolfgang Pempe
+
+## Agenda
+### Entity Metadata extension specification
+Davide: on the need to work ASAP on the OIDC metadata extension, see
+* http://lists.openid.net/pipermail/openid-specs-rande/Week-of-Mon-20181210/000019.html
+* Two approches: JSON object or individual additional claims.
+
+Example JSON Object (metadata_ext claim) for SIRTFI
+```
+{
+  "issuer":
+    "https://server.example.com",
+   "authorization_endpoint":
+    "https://server.example.com/",
+
+[..]
+
+  "metadata_ext": {
+    "type": "not-sure",
+    "ref_uri": "https://refeds.org/sirtfi",
+    "contact": {
+      "email": ["cert@example.com"],
+      "tel": [
+        "BETTER-CALL-SAUL",
+        "BIG-TROUBLE-IN-LITTLE-CHINA"
+      ]
+    }
+  }
+}
+```
+     
+
+Nick, Wolfgang, Mischa: vouch for separate JSON object. Extensibility
+point can be very convenient for the future.
+
+Mischa: Some doubts on keeping contact inside the metadata_ext for SIRTFI,
+we might need to specify also technical and administrative contact types.
+
+All: Agree with Mischa.
+
+It follows some etherpad sand play to try to find a sufficiently flexible
+and meaningful structure. Ending up in the following:
+
+* MULTIPLE JSON Objects
+```
+{
+  "issuer":
+    "https://server.example.com",
+   "authorization_endpoint":
+    "https://server.example.com/",
+
+[..]
+
+  "metadata_ext": {
+    ["schema_uri": "https://json-schema.org/schema-name.json",
+     "type": "contact",
+     "contact": {
+      "type": "security",
+      "email": ["cert@example.com"],
+      "url": "https://security.myorg.org/info";
+      "tel": [
+        "BETTER-CALL-SAUL",
+        "BIG-TROUBLE-IN-LITTLE-CHINA"
+    ],
+    ["type": "entity-attr",
+     "namespace_url": "https://refeds.org/entity-attr/assurance",
+     "ref_uri": "https://refeds.org/sirtfi",
+     ]
+    }
+  }
+}
+```
+Mischa: there might be other attributes/claims that we need (out of those specific to policy frameworks and entity categories)
+
+Nick write down a list of attributes to be check:
+
+What's missing? (check it out against the current OIDC standard metadata claims in OpenID.Discovery and OpenID.Registration)
+
+Logo URL (or base64 logo) (OP missing)
+Privacy Statement URL
+Organization Name
+Organization DisplayName
+DisplayName
+Description
+ErrorURL (for OPs)
+Entity attributes
+Contact types
+Contacts (missing for the OP)
+
+(Look in OpenID.Discovery for OPs and OpenID.Registration for RPs)
+
+Davide: we need to define a schema  
+Keith: the json-schema [json-schema] standard is promising. Used in API
+with some success so far.
+
+# Actions
+1. Follow the list above to find out how many and which attributes/claims
+we need to create to adequately describe an entity in OIDC.
+2. Create a list of claims to fully support R&S, SIRTFI and the CoCo (any
+other EC or policy frameworks we need to cover?).
+3. Try different metadata_ext claim structure (array of objects, array of
+array of objects, etc.) with the claims discovered in 1 and 2.
+
+# Next meeting
+* Jan 14th 2019, 3:00pm UTC.
+
+
+
+# References
+[json-schema] 
+[OpenID.Discovery] http://openid.net/specs/openid-connect-discovery-1_0.html
+[OpenID.Registration] https://openid.net/specs/openid-connect-registration-1_0.html
 
 # 20181205
 

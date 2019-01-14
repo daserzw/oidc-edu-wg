@@ -5,3 +5,5 @@
 # vi
 *.swp
 
+# venv
+venv

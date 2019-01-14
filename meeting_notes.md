@@ -1,6 +1,92 @@
+* [20190114 meeting](#20190114)
 * [20181217 meeting](#20181217)
 * [20181205 meeting](#20181205)
 * [20181119 meeting](#20181119)
+
+# 20190114
+
+OIDF R&E meeting 2019-01-14
+
+Note taker: Davide Vaghetti
+
+## Attendees
+
+* Keith Hazelton
+* Mischa Sallé
+* Nicolas Liampotis
+* Sara Jeanes
+* Nathan Dors
+* Davide Vaghetti
+
+## Agenda & discussion
+
+* Welcome and Introduction 
+* Open actions from last meeting 
+  * Continue the discusion on the metadata entity extension:
+    * Nathan: is the `sub_meta`.`contacts` from Wolfgang proposal the same that we were speaking about?
+    * Davide: I think it is not the same thing, the `contacts` in the `sub_meta` are valid only inside an entity_statement, they cannot be used in a vanilla metadata JSON for an entity. Anyway, it doesn't matter WHERE it is used, we should define the structure of this new `contacts` claim in the entity metadata extension spec. 
+    * Mischa: `contacts` is ambiguous, we should find a name that does not collide with the `contacts` claim in the vanilla metadata. 
+    * Keith: why do we not just use a `sirtfiContacts` claim for the secuirty/Sirtfi contact?
+    * Davide/Nicolas: because we need other contact types, at least `technical`, `support` and `administrative`. (see below the "Sandbox").
+    * Mischa: why we do not create new claims at top-level instead of relying on this `metadata_ext` JSON object?
+    * Davide: the `metadata_ext` JSON object was sought to provide extreme flexibility in adding new claims type, do we need such flexibility? (see below the "Sandbox").
+    * Everyone: better to keep it as simple as possible and also to follow the existing conventions in the other OIDC specifications, that is to extend top-level adding new claims.
+* Specifications roadmap and workplan: 
+  * OIDC R&E claims and scopes 
+* TBD
+  * OIDC Metadata ExEntity tension
+* TBD
+* AOB 
+
+## Sandbox
+
+Example of `metadata_ext` for an RP metadata
+```
+
+{
+   "application_type": "web",
+   "redirect_uris":
+     ["https://client.example.org/callback",
+      "https://client.example.org/callback2"],
+      
+[..]
+
+   "metadata_ext":
+     {
+       "contacts_x": 
+         [ 
+           { 
+             "type": "security", 
+             "ref_uri": "http://refeds.org/metadata/contactType/security", 
+             "email": ["cert@example.com"], 
+             "tel": [ 
+               "BETTER-CALL-SAUL", 
+               "BIG-TROUBLE-IN-LITTLE-CHINA" 
+             ] 
+           }, 
+           { 
+             "type": "technical", 
+             "ref_uri": "https://openid.net/connect/rande/metadata/contact/technical", 
+             "email": ["techsupport@university-xy.org"], 
+           } 
+         ]      
+     }
+}
+
+```
+
+A separate metadata extension element by which you can auto-define new claims
+
+```
+{
+[..]
+  "metadata_ext":
+      {
+          "claim_name": [...],
+          "claim_meta_uri": "https://openid.net/connect/rande/metadata/claim_name"
+      }
+```
+          
 
 # 20181217
 

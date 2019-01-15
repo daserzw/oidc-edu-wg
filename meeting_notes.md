@@ -22,20 +22,36 @@ Note taker: Davide Vaghetti
 
 * Welcome and Introduction 
 * Open actions from last meeting 
-  * Continue the discusion on the metadata entity extension:
-    * Nathan: is the `sub_meta`.`contacts` from Wolfgang proposal the same that we were speaking about?
-    * Davide: I think it is not the same thing, the `contacts` in the `sub_meta` are valid only inside an entity_statement, they cannot be used in a vanilla metadata JSON for an entity. Anyway, it doesn't matter WHERE it is used, we should define the structure of this new `contacts` claim in the entity metadata extension spec. 
-    * Mischa: `contacts` is ambiguous, we should find a name that does not collide with the `contacts` claim in the vanilla metadata. 
-    * Keith: why do we not just use a `sirtfiContacts` claim for the secuirty/Sirtfi contact?
-    * Davide/Nicolas: because we need other contact types, at least `technical`, `support` and `administrative`. (see below the "Sandbox").
-    * Mischa: why we do not create new claims at top-level instead of relying on this `metadata_ext` JSON object?
-    * Davide: the `metadata_ext` JSON object was sought to provide extreme flexibility in adding new claims type, do we need such flexibility? (see below the "Sandbox").
-    * Everyone: better to keep it as simple as possible and also to follow the existing conventions in the other OIDC specifications, that is to extend top-level adding new claims.
+  * Continue the discusion on the metadata entity extension.
 * Specifications roadmap and workplan: 
   * OIDC R&E claims and scopes 
 * TBD
-  * OIDC Metadata ExEntity tension
-* TBD
+  * OIDC Metadata Entity Extension
+    * Davide: let's discuss Wolfgang proposal to use the `contacts`
+    claim in the `sub_meta` claim defined by OpenID.Federation.
+    Ref: http://lists.openid.net/pipermail/openid-specs-rande/Week-of-Mon-20190114/000025.html
+    * Nathan: is the `contacts` in `sub_meta` the same that we were
+    speaking about?
+    * Davide: I think it is not exactly the same thing, the `contacts`
+    in the `sub_meta` is valid only inside an entity_statement,
+    it cannot be used in a vanilla metadata JSON for an entity. Anyway,
+    it doesn't matter WHERE it is used, we should define the structure
+    of this new `contacts` claim in the entity metadata extension spec. 
+    * Mischa: `contacts` is ambiguous, we should find a name that does
+    not collide with the `contacts` claim in the vanilla metadata. 
+    * Keith: why do we not just use a `sirtfiContacts` claim for the
+    secuirty/Sirtfi contact?
+    * Davide/Nicolas: because we need other contact types, at least
+    `technical`, `support` and `administrative`. (see below the
+    "Sandbox").
+    * Mischa: why we do not create new claims at top-level instead of
+    relying on this `metadata_ext` JSON object?
+    * Davide: the `metadata_ext` JSON object was sought to provide
+    extreme flexibility in adding new claims type, do we need such
+    flexibility? (see below the "Sandbox").
+    * Everyone: it seems better to keep it as simple as possible and also to
+    follow the existing conventions in the other OIDC specifications,
+    that is to extend top-level adding new claims.
 * AOB 
 
 ## Sandbox
@@ -79,8 +95,10 @@ A separate metadata extension element by which you can auto-define new claims
 
 ```
 {
+
 [..]
-  "metadata_ext":
+
+    "metadata_ext":
       {
           "claim_name": [...],
           "claim_meta_uri": "https://openid.net/connect/rande/metadata/claim_name"

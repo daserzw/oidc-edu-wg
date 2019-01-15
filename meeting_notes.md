@@ -101,7 +101,7 @@ Note taker: Davide Vaghetti
 * Nick Roy
 * Wolfgang Pempe
 
-## Agenda
+## Agenda & discussion
 ### Entity Metadata extension specification
 Davide: on the need to work ASAP on the OIDC metadata extension, see
 * http://lists.openid.net/pipermail/openid-specs-rande/Week-of-Mon-20181210/000019.html
@@ -195,7 +195,7 @@ Davide: we need to define a schema
 Keith: the json-schema [json-schema] standard is promising. Used in API
 with some success so far.
 
-# Actions
+## Actions
 1. Follow the list above to find out how many and which attributes/claims
 we need to create to adequately describe an entity in OIDC.
 2. Create a list of claims to fully support R&S, SIRTFI and the CoCo (any
@@ -203,15 +203,16 @@ other EC or policy frameworks we need to cover?).
 3. Try different metadata_ext claim structure (array of objects, array of
 array of objects, etc.) with the claims discovered in 1 and 2.
 
-# Next meeting
+## Next meeting
 * Jan 14th 2019, 3:00pm UTC.
 
+## References
+[json-schema] https://json-schema.org/
 
-
-# References
-[json-schema] 
 [OpenID.Discovery] http://openid.net/specs/openid-connect-discovery-1_0.html
+
 [OpenID.Registration] https://openid.net/specs/openid-connect-registration-1_0.html
+
 
 # 20181205
 

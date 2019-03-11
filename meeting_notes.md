@@ -1,7 +1,100 @@
+* [20190311 meeting](#20190311)
 * [20190114 meeting](#20190114)
 * [20181217 meeting](#20181217)
 * [20181205 meeting](#20181205)
 * [20181119 meeting](#20181119)
+
+# 20190311
+
+OIDF R&E meeting 2019-03-11
+
+Note taker: Davide Vaghetti
+
+## Attendees
+
+* Keith Hazelton
+* Mischa Sallé
+* Nathan Dors
+* Hannah Short
+* Roland Hedberg
+* Wolfgang Pempe
+* Maarten Kremers
+* Davide Vaghetti
+
+## Agenda
+
+* Welcome and Introduction.
+* Approval of switching to a biweekly call in the EMEA friendly timezone.
+* Start the work on the OIDC R&E claim specification (there is a specific
+request from the AARC2 project to prioritize it).
+* Continue the discussion on entity metadata extension:
+  * see the last meeting notes:
+  https://github.com/daserzw/oidc-edu-wg/blob/master/meeting_notes.md
+
+## Discussion
+
+### Switch to a biweekly call in EMEA
+
+Everybody approves the proposal to switch to a biweekly call in the
+EMEA friendly timezone. From today on, there will be a call every other
+Monday at 3:00pm CET. The OIDF calendar will be updated accordingly.
+
+### OIDC R&E claim specification
+
+There is a general agreement on NOT to go for registering new public
+claims in the IANA JSON Web Token Claims Registry. We will use private
+claims unless there is a valid reason for not to do so.
+
+
+Other specification and documents of interest:
+* the OIDCre document on mapping between SAML 2.0 and OIDC:
+  * White Paper for implementation of mappings between SAML 2.0 and OpenID
+Connect in Research and Education
+  * https://docs.google.com/document/d/1b-Mlet3Lq7qKLEf1BnHJ4nL1fq-vMe7fzpXyrq2wp08/edit
+* Roland suggest to have also a look at the HEART specification (use of
+scopes vs claims):
+  * https://openid.net/specs/openid-heart-fhir-oauth2-1_0.html
+
+
+Davide asks if information related to group membership should be taken into
+consideration:
+* Hannah says it can intersting for research use cases, also it is
+important to be able to express (and track/verify?) the group authority.
+* Roland invites to have a look a the recent discussion on the source of
+authority for claims and attributes that there has recently been on the
+A/B connect ml.
+
+
+There is a general consensus on evaluate if group information will part
+of the spec or not: if the spec appears to grow too much, it will be
+split.
+
+
+Davide propose a use case based approach. There are three main use cases:
+* Authentication only with the exchange of a transient ID or no ID at all
+(in that case the session ID itself will be enough to track the event on
+both side) 
+* Release of a persistent identifier.
+* Release of a persistent identifier + a set of attributes.
+
+
+Roland also raises the issue of when and where releasing the claims. Many
+people are actually asking for the claims to be released directly with the
+id_token, or even with the access_token itself, avoiding a call to the
+userinfo endpoint. Hanna and Mischa note that this is certainly an
+interesting use case for the research community, where there might be the
+need to re-use an access_token for multiple resources and not all under the
+same administrative umbrella.
+
+Actions:
+* Davide will start a document with what has been agreed so far:
+  * subset of claims extracted from the OIDCre white paper.
+  * the above list of use cases.
+
+
+### Entity metadata extension
+The discussion will continue on the mailing list.
+
 
 # 20190114
 

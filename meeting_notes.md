@@ -50,8 +50,9 @@ Other specification and documents of interest:
 * the OIDCre document on mapping between SAML 2.0 and OIDC:
   * White Paper for implementation of mappings between SAML 2.0 and OpenID
 Connect in Research and Education
-  * https://docs.google.com/document/d/1b-Mlet3Lq7qKLEf1BnHJ4nL1fq-vMe7fzpXyrq2wp08/edit
-* Roland suggest to have also a look at the HEART specification (use of
+  * link1: https://wiki.refeds.org/display/CON/Consultation%3A+SAML2+and+OIDC+Mappings?preview=/38895621/38895643/20181011-OIDC-WP.pdf
+  * link2: https://docs.google.com/document/d/1b-Mlet3Lq7qKLEf1BnHJ4nL1fq-vMe7fzpXyrq2wp08/edit
+* Roland suggests to have also a look at the HEART specification (use of
 scopes vs claims):
   * https://openid.net/specs/openid-heart-fhir-oauth2-1_0.html
 
@@ -67,8 +68,11 @@ A/B connect ml.
 
 There is a general consensus on evaluate if group information will part
 of the spec or not: if the spec appears to grow too much, it will be
-split.
-
+split. References:
+* AARC G002: https://aarc-project.eu/guidelines/aarc-g002/
+* AARC G027: https://doi.org/10.5281/zenodo.2247446
+* AARC-I047: https://docs.google.com/document/d/18Me5b63R7GKb_1gDfYH02l2sXr3mCIg_suPRw86Ye7I
+* voPerson: https://voperson.org/
 
 Davide propose a use case based approach. There are three main use cases:
 * Authentication only with the exchange of a transient ID or no ID at all
@@ -81,10 +85,13 @@ both side)
 Roland also raises the issue of when and where releasing the claims. Many
 people are actually asking for the claims to be released directly with the
 id_token, or even with the access_token itself, avoiding a call to the
-userinfo endpoint. Hanna and Mischa note that this is certainly an
-interesting use case for the research community, where there might be the
-need to re-use an access_token for multiple resources and not all under the
-same administrative umbrella.
+userinfo endpoint. 
+Mischa: "The main reason people want to have 'self-contained' tokens instead 
+of using a userinfo or introspection endpoint is performance".
+
+'self-contained' tokens might also be useful when there is the need to re-use 
+an access_token for multiple resources, not all under the same administrative
+umbrella, and some user claims are needed too.
 
 Actions:
 * Davide will start a document with what has been agreed so far:

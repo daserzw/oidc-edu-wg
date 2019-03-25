@@ -37,7 +37,7 @@ request from the AARC2 project to prioritize it).
 
 Everybody approves the proposal to switch to a biweekly call in the
 EMEA friendly timezone. From today on, there will be a call every other
-Monday at 3:00pm CET. The OIDF calendar will be updated accordingly.
+Monday at 3:00pm UTC. The OIDF calendar will be updated accordingly.
 
 ### OIDC R&E claim specification
 

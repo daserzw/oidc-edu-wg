@@ -1,8 +1,91 @@
+* [20190325 meeting](#20190325)
 * [20190311 meeting](#20190311)
 * [20190114 meeting](#20190114)
 * [20181217 meeting](#20181217)
 * [20181205 meeting](#20181205)
 * [20181119 meeting](#20181119)
+
+# 20190325
+
+OIDF R&E meeting 2019-03-25
+
+Note taker: Davide Vaghetti
+
+## Attendees
+
+* Keith Hazelton
+* Mischa Sallé
+* Roland Hedberg
+* Maarten Kremers
+* Davide Vaghetti
+
+## Agenda
+
+* Welcome and Introduction.
+* Continue the discussion on OIDC R&E claim specification
+  * see the [20190311 meeting notes](#20190311).
+
+## Discussion
+
+### OIDC R&E claim specification
+
+There has been en extensive discussion on the use of scopes to request
+a set of claims. More specifically the discussion started from the REFEDS
+R&S Entity Category [R&S-EC].
+
+[R&S-EC], that specify a neat and useful bundle of attributes to be
+released to RPs, is currently targeted to the R&E identity federation
+world, and thus SAML 2.0, but the translation into an OIDC scope should be
+almost painless as specified in [REFEDS-OIDC-SAML-WP].
+
+Everyone agrees that porting [R&S-EC] to OIDC is useful.
+
+Roland points out that scopes in OIDC do not have any other attached
+meaning out of those defined for OAuth 2.0 and set of claims. OTOH SAML
+Entity Categories express that an entity belongs-to/support-for
+a category, and that is why is authorized to request such attributes.
+
+Everyone agrees that [R&S-EC] belongs-to/support-for meaning has to be
+expressed through metadata, while the scope(s) and/or the individual
+claims request is just an aspect of the technical implementation. In the
+end the OP will make a decision about releasing the claims based on
+information that are outside the authentication session (the metadata).
+
+Another point discussed: allow or not to request [R&S-EC] only through
+scope, or through claims request as well. [R&S-EC] itself does suggest to
+use the minimal set of attributes possible, so we should allow the request
+of individual claims as well (NOTE: this can also be accomplished with a
+set of scopes that are representing the individual claims).
+
+We also discussed about the identifiers and if what requirements we should
+push for in the specification. There has recently been a very interesting
+discussion on REFEDS on the consequences of not having adopted timely a
+good strategy for identifier expression and generation (the focus is on
+eduPerson's eduPersonTargetedID). So, while it is true that OIDC itself
+is already clear enough on having only two valid identifiers, the public
+and the private sub, we need to add some information on the way these
+identifiers are created. 
+
+Finally there has been a quick discussion on how to synthetically
+represent the tuple `iss` + `sub`, which is the only way to correctly
+create a globally unique identifier out of an `id_token`.
+The main use case for that short representation is account linking.
+
+Any URL based representation, such as `iss`+`#`+`sub`, would be
+interpreted as... an URL! So, as Roland suggested, the best way to avoid
+such ambiguity is to use an non-URL based representation, such as:
+
+`sub`+`!`+`iss`
+
+## Actions
+
+* Continue the discussion on the mailing list.
+
+### References
+
+R&S-EC  https://refeds.org/category/research-and-scholarship
+REFEDS-OIDC-SAML-WP https://wiki.refeds.org/display/CON/Consultation%3A+SAML2+and+OIDC+Mappings?preview=/38895621/38895643/20181011-OIDC-WP.pdf
+
 
 # 20190311
 

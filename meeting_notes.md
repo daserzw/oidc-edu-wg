@@ -1,9 +1,62 @@
+* [20190408 meeting](#20190408)
 * [20190325 meeting](#20190325)
 * [20190311 meeting](#20190311)
 * [20190114 meeting](#20190114)
 * [20181217 meeting](#20181217)
 * [20181205 meeting](#20181205)
 * [20181119 meeting](#20181119)
+
+# 20190408
+
+OIDF R&E meeting 2019-04-08
+
+Note taker: Davide Vaghetti
+
+## Attendees
+
+* Hannah Short
+* Keith Hazelton
+* Mischa Sallé
+* Davide Vaghetti
+* Keith Hazelton
+* Wolfgang Pempe
+* Nicolas Liampotis
+* Craig Voisin
+
+## Agenda
+
+* Welcome and Introduction.
+* Hannah Short from CERN will introduce the WLCG Common JWT Profiles
+specification:
+  https://docs.google.com/document/d/1cNm4nBl9ELhExwLxswpxLLNTuz8pT38-b_DewEyEWug
+
+## Discussion
+
+### The WLCG Common JWT Profiles specification
+
+Hannah gave a very clear presentation on the WLCG use case and the
+state of the work. Presentation:
+
+ https://cernbox.cern.ch/index.php/s/f4HFP24SReWKUGc
+
+Craig Voisin, from the Global Alliance for Genomics and Healt (GA4GH),
+joined the discussion. Craig told us that the GA4GH AAI is facing similar
+use cases and challenges.
+
+The discussion focused on three main points:
+- WLCG needs to keep the PII and the authorization information in the
+same bearer token to be used with unregistered resource servers.
+- use of the `scope` claim to express authorization.
+- WLCG introduces two new short claims, `ver` and `group`, with a very
+concise syntax and concise values as well. The target is to create and
+use very short (and short-lived) token.
+
+### References
+
+WLCG Common JWT Profiles:
+ https://docs.google.com/document/d/1cNm4nBl9ELhExwLxswpxLLNTuz8pT38-b_DewEyEWug
+Hannah's presentation:
+ https://cernbox.cern.ch/index.php/s/f4HFP24SReWKUGc
 
 # 20190325
 
@@ -85,7 +138,6 @@ such ambiguity is to use an non-URL based representation, such as:
 
 R&S-EC  https://refeds.org/category/research-and-scholarship
 REFEDS-OIDC-SAML-WP https://wiki.refeds.org/display/CON/Consultation%3A+SAML2+and+OIDC+Mappings?preview=/38895621/38895643/20181011-OIDC-WP.pdf
-
 
 # 20190311
 

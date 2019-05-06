@@ -1,3 +1,4 @@
+* [20190506 meeting](#20190506)
 * [20190408 meeting](#20190408)
 * [20190325 meeting](#20190325)
 * [20190311 meeting](#20190311)
@@ -5,6 +6,61 @@
 * [20181217 meeting](#20181217)
 * [20181205 meeting](#20181205)
 * [20181119 meeting](#20181119)
+
+# 20190506
+
+OIDF R&E meeting 2019-05-06
+
+Note taker: Davide Vaghetti
+
+## Attendees
+
+* Hannah Short
+* Roland Hedberg
+* Davide Vaghetti
+
+## Agenda
+
+* Continue the discussion on the R&E claims and scope specification.
+
+## Discussion
+
+As seen on the REFEDS mailing list, people are looking for some advises
+on claims' names for eduPerson* related attributes.
+
+Starting from the REFEDS/OIDCre SAML-OIDC mapping white paper, we need to
+make it clear what is the nature of the proposed claims, that is:
+- Registered claims, for which we have the IANA "JSON Web Token Claims" registry.
+- Public claims that need to be defined with collision-resistant name, that is a name defined inside a collision-resistant namespace, such as "Domain Names, Object Identifiers (OIDs)..." [3].
+- Private claims that are subject to specific agreements between the
+provider and the consumer of the claims themselves.
+
+In doing so we need to consider the need expressed by the WLCG community
+to have the shortest possible names for the claims in order to put them
+directly in the ID Token.
+
+After some discussion, we decided to follow a dual approach:
+- register a subset of claims on the IANA registry, namely those proposed
+  by the WLCG WG plus affiliation --- possibly short claim names and values.
+- in size constrained environment the all the other eduPerson and SCHAC
+  claims can be requested through the userinfo endpoint if needed. As for
+  the names we can stay with the names already defined in the REFEDS/OIDCre
+  white paper --- that is Private claims --- or go for Public claims
+  including a full and formal namespace, but we didn't see much usefulness
+  in doing so.
+  
+We will submit the above considerations also to REFEDS to reach a wider
+audience.
+
+### References
+
+REFEDS message on OIDC eduPerson claims:
+ https://lists.refeds.org/sympa/arc/refeds/2019-05/msg00002.html
+WLCG Common JWT Profiles:
+ https://docs.google.com/document/d/1cNm4nBl9ELhExwLxswpxLLNTuz8pT38-b_DewEyEWug
+Hannah's presentation:
+ https://cernbox.cern.ch/index.php/s/f4HFP24SReWKUGc
+
 
 # 20190408
 

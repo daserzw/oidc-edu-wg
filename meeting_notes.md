@@ -1,3 +1,4 @@
+* [20190506 meeting](#20190603)
 * [20190506 meeting](#20190506)
 * [20190408 meeting](#20190408)
 * [20190325 meeting](#20190325)
@@ -6,6 +7,44 @@
 * [20181217 meeting](#20181217)
 * [20181205 meeting](#20181205)
 * [20181119 meeting](#20181119)
+
+# 20190603
+
+OIDF R&E meeting 2019 June 3
+
+Note taker: Davide Vaghetti
+
+## Attendees
+
+* Hannah Short
+* Davide Vaghetti
+
+## Agenda
+
+* Continue the discussion on the R&E claims and scope specification.
+
+## Discussion
+
+Not a long discussion: being just me and Hannah we decided to work on a brief document about R&S and the WLCG proposed Identity Token and then share it with the community to get some feedback:
+
+ https://docs.google.com/document/d/1FQcZEUsjRjVxR5X5uii_Ma9adFIe9ER3b4WE-wYo7hU/edit#
+
+## Actions
+ Davide: share the doc with the REFEDS OIDCre and OIDF R&E communities.
+ 
+### References
+
+R&S scope and WLCG Identity Token document
+ https://docs.google.com/document/d/1FQcZEUsjRjVxR5X5uii_Ma9adFIe9ER3b4WE-wYo7hU/edit#
+ REFEDS OIDCre - White Paper for implementation mappings between SAML 2.0 and OpenID Connect in Research and Education
+ https://docs.google.com/document/d/1b-Mlet3Lq7qKLEf1BnHJ4nL1fq-vMe7fzpXyrq2wp08/edit#
+REFEDS message on OIDC eduPerson claims:
+ https://lists.refeds.org/sympa/arc/refeds/2019-05/msg00002.html
+WLCG Common JWT Profiles:
+ https://docs.google.com/document/d/1cNm4nBl9ELhExwLxswpxLLNTuz8pT38-b_DewEyEWug
+Hannah's presentation:
+ https://cernbox.cern.ch/index.php/s/f4HFP24SReWKUGc
+
 
 # 20190506
 

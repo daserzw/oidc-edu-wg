@@ -34,16 +34,16 @@ Not a long discussion: being just me and Hannah we decided to work on a brief do
  
 ### References
 
-R&S scope and WLCG Identity Token document
- https://docs.google.com/document/d/1FQcZEUsjRjVxR5X5uii_Ma9adFIe9ER3b4WE-wYo7hU/edit#
- REFEDS OIDCre - White Paper for implementation mappings between SAML 2.0 and OpenID Connect in Research and Education
- https://docs.google.com/document/d/1b-Mlet3Lq7qKLEf1BnHJ4nL1fq-vMe7fzpXyrq2wp08/edit#
-REFEDS message on OIDC eduPerson claims:
- https://lists.refeds.org/sympa/arc/refeds/2019-05/msg00002.html
-WLCG Common JWT Profiles:
- https://docs.google.com/document/d/1cNm4nBl9ELhExwLxswpxLLNTuz8pT38-b_DewEyEWug
-Hannah's presentation:
- https://cernbox.cern.ch/index.php/s/f4HFP24SReWKUGc
+* R&S scope and WLCG Identity Token document
+  https://docs.google.com/document/d/1FQcZEUsjRjVxR5X5uii_Ma9adFIe9ER3b4WE-wYo7hU/edit#
+* REFEDS OIDCre - White Paper for implementation mappings between SAML 2.0 and OpenID Connect in Research and Education
+  https://docs.google.com/document/d/1b-Mlet3Lq7qKLEf1BnHJ4nL1fq-vMe7fzpXyrq2wp08/edit#
+* REFEDS message on OIDC eduPerson claims:
+  https://lists.refeds.org/sympa/arc/refeds/2019-05/msg00002.html
+* WLCG Common JWT Profiles:
+  https://docs.google.com/document/d/1cNm4nBl9ELhExwLxswpxLLNTuz8pT38-b_DewEyEWug
+* Hannah's presentation:
+  https://cernbox.cern.ch/index.php/s/f4HFP24SReWKUGc
 
 
 # 20190506
@@ -93,12 +93,12 @@ audience.
 
 ### References
 
-REFEDS message on OIDC eduPerson claims:
- https://lists.refeds.org/sympa/arc/refeds/2019-05/msg00002.html
-WLCG Common JWT Profiles:
- https://docs.google.com/document/d/1cNm4nBl9ELhExwLxswpxLLNTuz8pT38-b_DewEyEWug
-Hannah's presentation:
- https://cernbox.cern.ch/index.php/s/f4HFP24SReWKUGc
+* REFEDS message on OIDC eduPerson claims:
+  https://lists.refeds.org/sympa/arc/refeds/2019-05/msg00002.html
+* WLCG Common JWT Profiles:
+  https://docs.google.com/document/d/1cNm4nBl9ELhExwLxswpxLLNTuz8pT38-b_DewEyEWug
+* Hannah's presentation:
+  https://cernbox.cern.ch/index.php/s/f4HFP24SReWKUGc
 
 
 # 20190408

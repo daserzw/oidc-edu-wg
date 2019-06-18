@@ -1,4 +1,5 @@
-* [20190506 meeting](#20190603)
+* [20190618 TNC19 meeting](#20190618)
+* [20190603 meeting](#20190603)
 * [20190506 meeting](#20190506)
 * [20190408 meeting](#20190408)
 * [20190325 meeting](#20190325)
@@ -8,11 +9,106 @@
 * [20181205 meeting](#20181205)
 * [20181119 meeting](#20181119)
 
+# 20190618
+
+OIDF R&E - TNC19 - meeting 2019 June 18
+
+Note taker: Hannah Short
+
+## Attendees
+
+* Hannah Short
+* Roland Hedberg
+* Mischa Sallé
+* Maarten Kremers
+* Chris Philips
+* Marcus Hardt
+* Wolfgang Pempe
+* Mike Jones
+* Judith Bush
+* Davide Vaghetti
+
+## Agenda
+
+* Go through some of the comments on the short OIDC R&S claims bundle proposal from last meeting:
+ https://docs.google.com/document/d/1FQcZEUsjRjVxR5X5uii_Ma9adFIe9ER3b4WE-wYo7hU/edit#
+
+## Discussion
+
+### R&S Bundle for OIDC
+
+Can we define the sub to be the thing we need? Seems to be “No”
+Implementors tend to take the ID and use it regardless of attribute definition. We should design for that. 
+Input from Mike Jones, “don’t touch sub”, put it in something else, e.g. NameId
+Most RP libraries do not expect a scoped sub, would require education of RP library developers
+Old identifier is only really needed for linking, for new accounts it doesn’t really matter
+Do not shift meanings from one spec to another, do not touch what is there. Recommendation not to use a single dictionary. 
+Suggestion from Chris that we totally replicate the eduPerson schema, plus populate OIDC standard claims with the same values, might be the cleanest way to do it
+Discussion from Judith, could add a scope
+OASIS spec allows you to put principal and scope, concatenated in a sub-claim
+Should prioritise RPs 
+Could we put possible migration data in the user-info endpoint and not in the profile? Keep the profile simple
+We shouldn’t try to force things into an OIDC format
+SAML Subject-id suggested for sub, this attribute is not yet used in the SAML wild
+Options for identifier
+* Scoped, in the sub 
+* Add a different claim (e.g. subject-id) that is synonymous with a SAML attribute 
+What does Empty mean? 
+We don’t get case sensitive subjects in reality (Judith) because it comes from LDAP. Should be realistic. 
+127 characters for unique part, 127 part for scope part (SAML subject-id claim in OASIS)
+eduperson_ is fated to fail, commercial won’t pick it up
+Scopes are potentially hard coded in, be careful. It might be complicated and if clients request unsupported scopes you may get strange errors
+Need to be careful not to supply surplus attributes (or request them) to be in line with the R&S framework
+We could add non-optional claims to the profile schema 
+Azure could potentially do more R&E things if necessary
+Balance of user info vs ID token, generally everything goes in user info (even common for information to be in the access token)  
+
+### Claims Request/Scope
+
+Claims requests part of spec but not widely implemented
+Structured scope suggested by Torsten 
+
+### Scoping
+
+* why is it needed? 
+* generally not very sure
+* whatever was used should still be used, there are cases 
+
+### This schema should
+
+* Facilitate migration
+* Keep it simple for RPs 
+* Provide a predictable and enforceable mapping
+* Avoid backporting SAML perspective and logic
+* One R&E scope
+* Avoid incompatibility with industry 
+
+### Tagging
+
+We need to signal adoption of frameworks somehow  
+
+### Example of OpenID 2.0 to OpenId Connect migration
+The OpenID 2.0 to OpenID Connect Migration 1.0 specification at
+https://openid.net/specs/openid-connect-migration-1_0.html defines the
+“openid2_id” claim to transmit the OpenID 2.0 identifier in an OpenID
+Connect response – enabling relying parties to support both protocols at
+the same time and to correlate older identifiers with new ones.
+
+## Actions
+
+* Pros/Cons table for unique identifier options 
+* Pros/Cons table for scope/claims request/extending profile
+
+## Lost and Found
+Should entity categories be included in metadata or authentication context?
+Suggestion (not necessarily to do…) For the mapping, start with most important SAML claims, e.g. affiliation & entitlement. Do it in a proper OIDC way and register in IANA. 
+
+
 # 20190603
 
 OIDF R&E meeting 2019 June 3
 
-Note taker: Davide Vaghetti
+Note taker: Hannah Short
 
 ## Attendees
 
@@ -25,7 +121,7 @@ Note taker: Davide Vaghetti
 
 ## Discussion
 
-Not a long discussion: being just me and Hannah we decided to work on a brief document about R&S and the WLCG proposed Identity Token and then share it with the community to get some feedback:
+Not a long discussion, being just two we decided to work on a brief document about R&S and the WLCG proposed Identity Token and then share it with the community to get some feedback:
 
  https://docs.google.com/document/d/1FQcZEUsjRjVxR5X5uii_Ma9adFIe9ER3b4WE-wYo7hU/edit#
 
@@ -44,7 +140,6 @@ Not a long discussion: being just me and Hannah we decided to work on a brief do
   https://docs.google.com/document/d/1cNm4nBl9ELhExwLxswpxLLNTuz8pT38-b_DewEyEWug
 * Hannah's presentation:
   https://cernbox.cern.ch/index.php/s/f4HFP24SReWKUGc
-
 
 # 20190506
 

@@ -38,34 +38,58 @@ Note taker: Hannah Short
 ### R&S Bundle for OIDC
 
 Can we define the sub to be the thing we need? Seems to be “No”
+
 Implementors tend to take the ID and use it regardless of attribute definition. We should design for that. 
+
 Input from Mike Jones, “don’t touch sub”, put it in something else, e.g. NameId
+
 Most RP libraries do not expect a scoped sub, would require education of RP library developers
+
 Old identifier is only really needed for linking, for new accounts it doesn’t really matter
+
 Do not shift meanings from one spec to another, do not touch what is there. Recommendation not to use a single dictionary. 
+
 Suggestion from Chris that we totally replicate the eduPerson schema, plus populate OIDC standard claims with the same values, might be the cleanest way to do it
+
 Discussion from Judith, could add a scope
+
 OASIS spec allows you to put principal and scope, concatenated in a sub-claim
+
 Should prioritise RPs 
+
 Could we put possible migration data in the user-info endpoint and not in the profile? Keep the profile simple
+
 We shouldn’t try to force things into an OIDC format
+
 SAML Subject-id suggested for sub, this attribute is not yet used in the SAML wild
+
 Options for identifier
+
 * Scoped, in the sub 
 * Add a different claim (e.g. subject-id) that is synonymous with a SAML attribute 
+
 What does Empty mean? 
+
 We don’t get case sensitive subjects in reality (Judith) because it comes from LDAP. Should be realistic. 
+
 127 characters for unique part, 127 part for scope part (SAML subject-id claim in OASIS)
+
 eduperson_ is fated to fail, commercial won’t pick it up
+
 Scopes are potentially hard coded in, be careful. It might be complicated and if clients request unsupported scopes you may get strange errors
+
 Need to be careful not to supply surplus attributes (or request them) to be in line with the R&S framework
+
 We could add non-optional claims to the profile schema 
+
 Azure could potentially do more R&E things if necessary
+
 Balance of user info vs ID token, generally everything goes in user info (even common for information to be in the access token)  
 
 ### Claims Request/Scope
 
 Claims requests part of spec but not widely implemented
+
 Structured scope suggested by Torsten 
 
 ### Scoping
@@ -100,8 +124,8 @@ the same time and to correlate older identifiers with new ones.
 * Pros/Cons table for scope/claims request/extending profile
 
 ## Lost and Found
-Should entity categories be included in metadata or authentication context?
-Suggestion (not necessarily to do…) For the mapping, start with most important SAML claims, e.g. affiliation & entitlement. Do it in a proper OIDC way and register in IANA. 
+* Should entity categories be included in metadata or authentication context?
+* Suggestion (not necessarily to do…) For the mapping, start with most important SAML claims, e.g. affiliation & entitlement. Do it in a proper OIDC way and register in IANA. 
 
 
 # 20190603

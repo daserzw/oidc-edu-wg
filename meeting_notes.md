@@ -1,3 +1,4 @@
+* [20190701 meeting](#201906701)
 * [20190618 TNC19 meeting](#20190618)
 * [20190603 meeting](#20190603)
 * [20190506 meeting](#20190506)
@@ -8,6 +9,62 @@
 * [20181217 meeting](#20181217)
 * [20181205 meeting](#20181205)
 * [20181119 meeting](#20181119)
+
+# 20190701
+
+OIDF R&E meeting 2019 July 1
+
+Note taker: Davide Vaghetti
+
+## Attendees
+
+* Nicolas Liampotis
+* Mischa Sallé
+* Keith Hazelton
+* Davide Vaghetti
+
+## Agenda
+
+* Build on the fruitful discussion we had at TNC19 on `sub` and use of `scope`.
+
+## Discussion
+
+### OIDC sub and existing SAML 2.0 identifiers
+
+Started summarizing the discussion we had at TNC19 around the `sub`:
+* the openid2.0 migration approach.
+* the "stuff the SAML 2.0 identifier into the sub" approach.
+
+To compare the two approches we need to better define them, and more
+specifically the "openid2.0 migration" one --- see Actions below.
+
+### OIDC Scope and R&S EC
+
+We started from the TNC19 discussion: at TNC19 we thought that
+a sensible approach would be to just extend the `profile` scope and use
+the `claims_request` to allow for requesting the optional claims such as
+the affiliation. But:
+* the `claims_request` is optional and not supported by a very popular
+client such as `mod_auth_oidc` (Apache).
+* many useful use cases can be addressed just by creating an ad hoc scope,
+which wouldn't require any modification on the client --- even string-based
+structured scopes can be used (see WLCG JWT profile).
+
+Once again, to compare different solutions we need a detailed description
+of the implementations.
+
+## Actions
+
+* Technically define the different approaches for the `sub` and the `scopes`
+and the use cases. THEN put the solutions in a table to compare them.
+
+## References
+
+* OpenID 2.0 to OpenID Connect Migration 1.0
+  https://openid.net/specs/openid-connect-migration-1_0.html
+* WLCG Common JWT Profiles
+  https://docs.google.com/document/d/1cNm4nBl9ELhExwLxswpxLLNTuz8pT38-b_DewEyEWug
+
 
 # 20190618
 

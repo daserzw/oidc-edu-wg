@@ -1,4 +1,5 @@
-* [20190701 meeting](#201906701)
+* [20190812 meeting](#20190812)
+* [20190701 meeting](#20190701)
 * [20190618 TNC19 meeting](#20190618)
 * [20190603 meeting](#20190603)
 * [20190506 meeting](#20190506)
@@ -9,6 +10,64 @@
 * [20181217 meeting](#20181217)
 * [20181205 meeting](#20181205)
 * [20181119 meeting](#20181119)
+
+# 20190812
+
+OIDF R&E meeting 2019 August 12
+
+Note taker: Davide Vaghetti
+
+## Attendees
+
+* Wolfgang Pempe
+* Christos Kanellopoulus
+* Mischa Sallé
+* Davide Vaghetti
+
+## Agenda
+
+* Continue the discussion on `sub` and use of `scope`.
+
+## Discussion
+
+### Use of "scoped" SAML 2.0 identifiers for the OIDC sub 
+
+The eduPerson/SAML 2.0 scope as the domain of the Organization does not
+exist in OpenID Connect. Thus, even if a SAML scoped identifier would be
+used to populate the OIDC sub, the domain part of the identifier MUST NOT
+be considered alone.
+The OIDC `sub` clam MUST always be treated as an indivisible string that
+__only__ when combined together with the `iss` can be used as a globally
+unique, or omni-directional, identifier.
+
+In short: a SAML 2.0 scoped identifier MAY be used as `sub`, but it MUST be
+treated as a plain OIDC `sub`.
+
+### Coexisting with SAML 2.0 and migration scenarios
+
+Both the migration from SAML 2.0 scenario and the coexisting scenario
+should be treated in the spec. Given that in the current federation
+landscape we have multiple indentifiers it is not possible to exactly
+follow the same approach used for OpenID 2.0 to OpenID Connect migration. 
+
+### eduperson_scoped_affiliation claim
+
+Requesting eduperson_scoped_affiliation makes sense only if the
+organization domain can be transmitted (and validated).  
+
+## Actions
+
+* Come up with a draft specification as soon as possible --- Davide will
+share it by the end of the month.
+* Share comparison tables on the different options for the `sub` and the
+`scope` --- Mischa, Davide, contribs welcomed!
+## References
+
+* OpenID 2.0 to OpenID Connect Migration 1.0
+  https://openid.net/specs/openid-connect-migration-1_0.html  
+* Gdoc with strawman for an OIDC R&S claims set:
+  https://docs.google.com/document/d/1FQcZEUsjRjVxR5X5uii_Ma9adFIe9ER3b4WE-wYo7hU/edit#
+
 
 # 20190701
 

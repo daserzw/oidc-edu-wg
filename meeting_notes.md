@@ -1,3 +1,4 @@
+* [20191021 meeting](#20191021)
 * [20190812 meeting](#20190812)
 * [20190701 meeting](#20190701)
 * [20190618 TNC19 meeting](#20190618)
@@ -10,6 +11,49 @@
 * [20181217 meeting](#20181217)
 * [20181205 meeting](#20181205)
 * [20181119 meeting](#20181119)
+
+# 20191021
+
+OIDF R&E meeting 2019 October 21st
+
+Note taker: Davide Vaghetti
+
+## Attendees
+
+* Chris Philips
+* Etienne Dysli Metref
+* Keith Hazelton
+* Nicolas Liampotis
+* Hannah Short
+* Davide Vaghetti
+
+## Agenda
+
+* Recap the current state and program next actions.
+
+## Discussion
+
+* Sources for the R&E claims and scopes:
+  * eduPerson schema
+  * SCHAC 
+  * REFEDS R&S EC
+  * voPerson schema
+  * WLCG Common JWT Profiles
+
+## Actions
+
+* Set out a strawman proposal on the mailing list for an R&S scope.
+
+## References
+
+* OpenID 2.0 to OpenID Connect Migration 1.0
+  https://openid.net/specs/openid-connect-migration-1_0.html  
+* Gdoc with strawman for an OIDC R&S claims set:
+  https://docs.google.com/document/d/1FQcZEUsjRjVxR5X5uii_Ma9adFIe9ER3b4WE-wYo7hU/edit#
+* voPerson schema
+  https://github.com/voperson/voperson
+* WLCG Common JWT Profiles
+  https://doi.org/10.5281/zenodo.3460258
 
 # 20190812
 

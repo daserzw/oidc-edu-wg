@@ -1,3 +1,4 @@
+* [20200224 meeting](#20200224)
 * [20191021 meeting](#20191021)
 * [20190812 meeting](#20190812)
 * [20190701 meeting](#20190701)
@@ -11,6 +12,74 @@
 * [20181217 meeting](#20181217)
 * [20181205 meeting](#20181205)
 * [20181119 meeting](#20181119)
+
+# 20191021
+
+OIDF R&E meeting 2020 February 24st
+
+Note taker: Davide Vaghetti
+
+## Attendees
+
+* Ronald Hedberg
+* Nick Roy
+* Nicolas Liampotis
+* Mischa Salle
+* Davide Vaghetti
+
+## Agenda
+
+* Trust Marks
+
+## Discussion
+
+Roland 
+* trust marks we already have something like that in SAML in the form 
+of Entity Categories. 
+* the issue has been raised at techEx.
+* NIST trustmark definition is good enough for our use and as a start.
+
+Trustmarks can be used to notify the conformance to a specific profile 
+or standard. This type of conformance to the protocol in the OIDC space 
+is currently carried on by the Certification program. There is an ongoing
+conversation in the OIDF to see if trust marks could be used along the 
+certification program.
+
+Nick notes that Kantara might also be interested in trustmarks.
+
+Use cases:
+* for the users to show that an RP is compliant with XYZ
+* for the OP and the RP for showing (and checking) compliance with XYZ
+
+What trustmarks do we need/want in the R&E sector?
+Bear in mind that a trust mark is just a JWT and nothing prevent it to 
+expanded if needed (for example security contacts).
+
+Agreed that in the R&E space we do have an outstanding issue about
+how to express entity categories in OIDC and trust marks seems to be 
+a good solution.
+So, how we can develop trust marks to express Entity Categories:
+* as a separete specification (too narrow, too often changed)
+* expanding the existing specification of each EC:
+  * might be a daunting job without a start
+  * some examples as appendix of the current OIDC Fed spec could help.
+
+## Actions
+
+* Send a request for comment to the mailing list inviting to propose 
+examples on expressing CoCo, R&S and Sirtfi through Trust Marks.  
+
+## References
+
+* OpenID 2.0 to OpenID Connect Migration 1.0
+  https://openid.net/specs/openid-connect-migration-1_0.html  
+* Gdoc with strawman for an OIDC R&S claims set:
+  https://docs.google.com/document/d/1FQcZEUsjRjVxR5X5uii_Ma9adFIe9ER3b4WE-wYo7hU/edit#
+* voPerson schema
+  https://github.com/voperson/voperson
+* WLCG Common JWT Profiles
+  https://doi.org/10.5281/zenodo.3460258
+
 
 # 20191021
 

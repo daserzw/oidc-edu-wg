@@ -29,9 +29,18 @@ Note taker: Davide Vaghetti
 
 ## Agenda
 
-* Trust Marks
+* Trust Marks as defined in the current OpenID Connect Federations 
+Specification, section 4.3 in:
+  * https://github.com/rohe/oidcfederation/blob/master/draft/openid-connect-federation-1_0.txt
+ 
 
 ## Discussion
+
+US NIST trustmark definition:
+
+   "A trustmark is used to indicate that a product or service provider
+   has met the requirements of the Identity Ecosystem, as determined by
+   an accreditation authority
 
 Roland 
 * trust marks we already have something like that in SAML in the form 

@@ -15,7 +15,7 @@
 
 # 20200224
 
-OIDF R&E meeting 2020 February 24st
+OIDF R&E meeting 2020 February 24th
 
 Note taker: Davide Vaghetti
 

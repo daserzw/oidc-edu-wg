@@ -1,3 +1,4 @@
+* [20210218 meeting](#20210218)
 * [20200224 meeting](#20200224)
 * [20191021 meeting](#20191021)
 * [20190812 meeting](#20190812)
@@ -12,6 +13,69 @@
 * [20181217 meeting](#20181217)
 * [20181205 meeting](#20181205)
 * [20181119 meeting](#20181119)
+
+# 20210218
+
+OIDF R&E meeting 2021 February 18th
+
+Note taker: Davide Vaghetti
+
+## Attendees
+
+* Nicolas Liampotis
+* Mischa Salle
+* Davide Vaghetti
+* Uros Stevanovic
+* Marcus Hardt
+* Chris Phillips
+* Hannah Short
+* Wolfgang Pempe
+* Etienne Dysli Metref
+* Christos Kanellopoulos
+
+## Agenda
+
+Discussion going on in the REFEDS EC working group around R&Sv2 is now touching 
+OIDC. The main problem is that the REFEDS EC WG is defining a schema for using 
+eduPerson and the schac schemas in order to be able to use them. That should be 
+the job of this WG. 
+
+## Discussion
+
+Mischa summarizes the three main points in discussion:
+- include given_name / family_name as for R&S(v2) SAML
+- email_verified
+- iss is essential, since sub alone is not globally unique. Also it
+needs to be specified which type of sub (pairwise or public, see
+https://openid.net/specs/openid-connect-core-1_0.html#SubjectIDTypes)
+
+Why should we back port to SAML claims that exist only in OIDC? To keep both 
+version aligned, but if there is a relevant semantic difference than it might 
+not worth the effort and we should try to follow a different strategy per each 
+protocol --- as for email_verified.
+
+Christos proposes not to stick to a one-to-one mapping with the current R&S 
+bundle, but more generally on how to represent researchers in the OIDC space.
+
+Chris: doing what @christos suggests can help both R&E and equally important, 
+the OIDF/OIDC implementers.
+
+Chris: this should be the place to have the conversation about harmonizing
+the eduperson* dictionary and R&S, R&S+ bundles in OIDC we can be more fulfilling the mission in this OIDF wg.
+
+Wolgfgang: e we have the problem of case sensitivity in the OIDC sub vs case insensitive for the subject-id.
+
+Mischa: we should use a separate claim if we want subject-id, it's not a good idea to overload the sub.
+
+Basically, it is not about translating attributes between SAML and OIDC, but 
+rather to be able to express the same semantics in both protocols.
+
+## Actions
+
+We will work on the current document about OIDC R&Sv1 and we will use it to contribute 
+to the current discussion on R&Sv2:
+
+ https://docs.google.com/document/d/1FQcZEUsjRjVxR5X5uii_Ma9adFIe9ER3b4WE-wYo7hU
 
 # 20200224
 

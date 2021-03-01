@@ -1,3 +1,4 @@
+* [20210301 meeting](#20210103)
 * [20210218 meeting](#20210218)
 * [20200224 meeting](#20200224)
 * [20191021 meeting](#20191021)
@@ -13,6 +14,50 @@
 * [20181217 meeting](#20181217)
 * [20181205 meeting](#20181205)
 * [20181119 meeting](#20181119)
+
+# 20210301
+
+OIDF R&E meeting 2021 March 1st
+
+Note taker: Davide Vaghetti
+
+## Attendees
+
+* Nicolas Liampotis
+* Heather Flanagan
+* Mischa Salle
+* Davide Vaghetti
+* Uros Stevanovic
+* Marcus Hardt
+* Wolfgang Pempe
+* Etienne Dysli Metref
+* Christos Kanellopoulos
+
+## Agenda
+
+Contribute a set of claims that can be used as the R&S v2 bundle.
+
+## Discussion 
+
+Long discussion on schacHomeOrganization and its role in R&Sv2, concluding that
+including or not sHO in the R&Sv2 bundle is not a discussion for this WG, but 
+rather for the REFEDS' one. 
+
+All agreed that either ePSA or sHO will be needed to scope the information 
+received and it will be fundamental in the case of the use of proxies.
+
+How to express affiliation and more generally the user's home organization with 
+OIDC has been longly debated as currently there is not a way to do it in a 
+verifiable and trusted way. No conclusions were reached.
+
+Etienne expressed dissatisfaction on how the claims were defined in the REFEDS 
+white paper [1] because the name of the schac and eduPerson attributes were 
+converted from camelCase to under_score without any motiviation and that 
+complicates the lifes of implementers without any apparent gain.
+
+## References
+
+[1] https://docs.google.com/document/d/1b-Mlet3Lq7qKLEf1BnHJ4nL1fq-vMe7fzpXyrq2wp08/edit#
 
 # 20210218
 

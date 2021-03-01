@@ -21,6 +21,16 @@ No mapping is provided for other standard claims not listed here.
     Note that `email` is single-valued, while SAML's `mail` isn't.
     If there are more than one value of `mail`, the OP should provide the end user's preferred e-mail address.
 
+## New eduPerson claims
+
+New OIDC claims directly derived from SAML attributes in the [eduPerson schema][eduPerson].
+Contrary to the [previously published white paper][whitepaper], which modified the spelling of SAML attributes when expressing them as OIDC claims without motivating this change, the same spelling is retained here in order to faciliate recognition.
+
+  - `eduPersonUniqueID` string <- `eduPersonUniqueID`
+  - `eduPersonOrcid` string array <- `eduPersonOrcid`
+  - `eduPersonScopedAffiliation` string array <- `eduPersonScopedAffiliation`
+
 [whitepaper]: https://wiki.refeds.org/download/attachments/38895621/20181011-OIDC-WP.pdf?version=2&modificationDate=1539619007924&api=v2 "White Paper for implementation of mappings between SAML 2.0 and OpenID Connect in Research and Education"
 [OIDC]: https://openid.net/specs/openid-connect-core-1_0.html "OpenID Connect Core 1.0 incorporating errata set 1"
 [SAML-subject-id]: https://docs.oasis-open.org/security/saml-subject-id-attr/v1.0/cs01/saml-subject-id-attr-v1.0-cs01.html "SAML V2.0 Subject Identifier Attributes Profile Version 1.0"
+[eduPerson]: https://wiki.refeds.org/display/STAN/eduPerson

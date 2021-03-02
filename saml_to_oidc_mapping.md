@@ -26,7 +26,7 @@ No mapping is provided for other standard claims not listed here.
 New OIDC claims directly derived from SAML attributes in the [eduPerson schema][eduPerson].
 Contrary to the [previously published white paper][whitepaper], which modified the spelling of SAML attributes when expressing them as OIDC claims without motivating this change, the same spelling is retained here in order to faciliate recognition.
 
-  - `eduPersonUniqueID` string <- `eduPersonUniqueID`
+  - `eduPersonUniqueId` string <- `eduPersonUniqueId`
   - `eduPersonOrcid` string array <- `eduPersonOrcid`
   - `eduPersonScopedAffiliation` string array <- `eduPersonScopedAffiliation`
 

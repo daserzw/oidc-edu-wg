@@ -48,7 +48,10 @@ received and it will be fundamental in the case of the use of proxies.
 
 How to express affiliation and more generally the user's home organization with 
 OIDC has been longly debated as currently there is not a way to do it in a 
-verifiable and trusted way. No conclusions were reached.
+verifiable and trusted way. Moreover, the affiliation as described in eduPerson 
+has different nuances per each possible value depending on the organisation that 
+is asserting it. The problem is mitigated by the scope, but not really solved.
+No conclusions were reached.
 
 Etienne expressed dissatisfaction on how the claims were defined in the REFEDS 
 white paper [1] because the name of the schac and eduPerson attributes were 

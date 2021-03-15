@@ -1,3 +1,4 @@
+* [20210315 meeting](#20210315)
 * [20210301 meeting](#20210301)
 * [20210218 meeting](#20210218)
 * [20200224 meeting](#20200224)
@@ -14,6 +15,73 @@
 * [20181217 meeting](#20181217)
 * [20181205 meeting](#20181205)
 * [20181119 meeting](#20181119)
+
+# 20210315
+
+OIDF R&E meeting 2021 March 15th
+
+Note taker: Davide Vaghetti
+
+## Attendees
+
+* Mischa Salle
+* Davide Vaghetti
+* Uros Stevanovic
+* Marcus Hardt
+* Wolfgang Pempe
+* Etienne Dysli Metref
+* Hannah Short
+* Roland Hedberg
+
+
+## Agenda
+
+* Camels vs Snakes 
+* Draft Specification
+
+## Discussion 
+
+### CamelCase vs snake_case
+
+There is a good amount of early adopters of the REFEDS OIDCRE white paper [1] 
+that are using the proposed `snake_case` version of eduPerson and SCHAC schemas.
+Moreover the `snake_case` format is the accepted convention for defining claims 
+in the OIDC community. Thus the WG decides to use the white paper defined claims 
+format as a base to further develop and standardize. 
+  
+### Draft Specification for a R&E claims profile
+
+Mischa suggests to have a look at AARC-G056 to get an initial list of claims for R&E in OIDC.
+
+Is scope an issue? Maybe we don't need it in the OIDC space as things are done 
+differently.
+
+Roland suggests to have a look to look at other specifications in the OIDC and 
+OAuth community to have both inspirations and a good grasp of what's has already
+been defined. For example Bertocci draft-ietf-oauth-access-token-jwt-11, which 
+by itself is based on SCIM.
+
+Alan shared the SURFnet work on OIDC claims: 
+https://wiki.surfnet.nl/display/surfconextdev/OpenID+Connect+claims+in+SURFconext
+
+Davide will share a TOC of the initial document with the following content:
+* Overview (requirements for the profile in terms of information needed for correctly representing a user in the R&E space).
+* R&S bundle as a starting point.
++ Additional Claims.
++ Identifiers.
+
+Misha signaled that the IPR may actually keep some people from participating to 
+the WG, but reading the requirements it shouldn't be really an issue for most 
+of higher education and research institutions. Maybe some explanation on the IPR
+is needed to make it clear.
+
+## References
+
+REFEDS OIDCre White Paper  
+https://docs.google.com/document/d/1b-Mlet3Lq7qKLEf1BnHJ4nL1fq-vMe7fzpXyrq2wp08/edit#
+
+draft-ietf-oauth-access-token-jwt-11 
+https://tools.ietf.org/html/draft-ietf-oauth-access-token-jwt-11
 
 # 20210301
 

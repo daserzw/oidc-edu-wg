@@ -1,3 +1,4 @@
+* [20210329 meeting](#20210329)
 * [20210315 meeting](#20210315)
 * [20210301 meeting](#20210301)
 * [20210218 meeting](#20210218)
@@ -15,6 +16,35 @@
 * [20181217 meeting](#20181217)
 * [20181205 meeting](#20181205)
 * [20181119 meeting](#20181119)
+
+# 20210329
+
+OIDF R&E meeting 2021 March 29th
+
+Note taker: Davide Vaghetti
+
+## Attendees
+
+* Mischa Salle
+* Davide Vaghetti
+* Uros Stevanovic
+* Marcus Hardt
+* Wolfgang Pempe
+* Etienne Dysli Metref
+* Hannah Short
+* Christos Kanellopoulus
+* Nicolas Liampotis
+
+## Agenda
+
+* Draft Specification
+
+## Discussion 
+
+### TOC for Draft Specification
+
+Research and Education Profile for OpenID Connect:
+ https://docs.google.com/document/d/1XH3pX4zU62S7VQ3JGTLDgSr4tb9vt6sDW0sgxD2Xi64/edit#
 
 # 20210315
 

@@ -1,3 +1,4 @@
+* [20210412 meeting](#20210412)
 * [20210329 meeting](#20210329)
 * [20210315 meeting](#20210315)
 * [20210301 meeting](#20210301)
@@ -16,6 +17,38 @@
 * [20181217 meeting](#20181217)
 * [20181205 meeting](#20181205)
 * [20181119 meeting](#20181119)
+
+# 20210329
+
+OIDF R&E meeting 2021 March 29th
+
+Note taker: Davide Vaghetti
+
+## Attendees
+
+* Davide Vaghetti
+* Marcus Hardt
+* Wolfgang Pempe
+* Etienne Dysli Metref
+* Nicolas Liampotis
+
+## Agenda
+
+* Draft Specification
+
+## Discussion 
+
+### TOC for Draft Specification
+
+Worked mainly on the Requirements section, discussing what should be the 
+main content for it and we have added a set of bullet points to define it at a
+high level (see below Working document).
+
+## Working document
+
+Research and Education Profile for OpenID Connect:
+ https://docs.google.com/document/d/1XH3pX4zU62S7VQ3JGTLDgSr4tb9vt6sDW0sgxD2Xi64/edit#
+
 
 # 20210329
 

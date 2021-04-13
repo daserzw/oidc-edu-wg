@@ -18,9 +18,9 @@
 * [20181205 meeting](#20181205)
 * [20181119 meeting](#20181119)
 
-# 20210329
+# 20210412
 
-OIDF R&E meeting 2021 March 29th
+OIDF R&E meeting 2021 April 12th
 
 Note taker: Davide Vaghetti
 
@@ -58,7 +58,6 @@ Note taker: Davide Vaghetti
 
 ## Attendees
 
-* Mischa Salle
 * Davide Vaghetti
 * Uros Stevanovic
 * Marcus Hardt

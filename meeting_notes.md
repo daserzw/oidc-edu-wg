@@ -63,7 +63,6 @@ Note taker: Davide Vaghetti
 * Marcus Hardt
 * Wolfgang Pempe
 * Etienne Dysli Metref
-* Hannah Short
 * Christos Kanellopoulus
 * Nicolas Liampotis
 

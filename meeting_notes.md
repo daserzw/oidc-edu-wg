@@ -1,3 +1,4 @@
+* [20210510 meeting](#20210510)
 * [20210412 meeting](#20210412)
 * [20210329 meeting](#20210329)
 * [20210315 meeting](#20210315)
@@ -18,9 +19,55 @@
 * [20181205 meeting](#20181205)
 * [20181119 meeting](#20181119)
 
-# 20210329
+# 20210510
 
-OIDF R&E meeting 2021 March 29th
+OIDF R&E meeting 2021 May 10th
+
+Note taker: Davide Vaghetti
+
+## Attendees
+
+* Davide Vaghetti
+* Mischa Salle
+* Uros Stevanovich
+* Nicolas Liampotis
+
+## Agenda
+
+* Draft Specification
+
+## Discussion 
+
+### TOC for Draft Specification
+
+We've tried to give a spin to the scope and identifier discussion. 
+
+On the identifiers we need to list all the use cases that cannot be covered by 
+the combination of `sub` and `iss`, then we can discuss about the best strategy
+to address the issue (for example with claim based identifier).
+
+On the scope, we've added the R&Sv1.3 list of claims as defined in the 
+r&s-straw-man-doc [1]. We've also discussed about the fact that our 
+specification will define only the R&S bundle for OIDC, how to request it and 
+how to release it, but it will not specify how to signal that an RP is R&S 
+compliant and what checks the OP should perform to ascertain it. For signaling 
+and compliancy where possible we will refer to the R&S EC and the OpenID Connect 
+Federation [2]. At the moment it is apparent that the main way to ascertain the 
+compliancy of an RP will be based on offline and peer-to-peer communication. 
+
+## Working document
+
+Research and Education Profile for OpenID Connect:
+ https://docs.google.com/document/d/1XH3pX4zU62S7VQ3JGTLDgSr4tb9vt6sDW0sgxD2Xi64/edit#
+
+## References
+
+[1] https://docs.google.com/document/d/1FQcZEUsjRjVxR5X5uii_Ma9adFIe9ER3b4WE-wYo7hU/edit#
+[2] https://openid.net/specs/openid-connect-federation-1_0.html
+
+# 20210412
+
+OIDF R&E meeting 2021 April 12ve
 
 Note taker: Davide Vaghetti
 

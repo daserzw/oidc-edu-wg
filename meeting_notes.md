@@ -38,7 +38,7 @@ Note taker: Davide Vaghetti
 
 ## Discussion 
 
-### TOC for Draft Specification
+### Identifiers and R&S Scope and signaling
 
 We've tried to give a spin to the scope and identifier discussion. 
 
@@ -67,7 +67,7 @@ Research and Education Profile for OpenID Connect:
 
 # 20210412
 
-OIDF R&E meeting 2021 April 12ve
+OIDF R&E meeting 2021 April 12th
 
 Note taker: Davide Vaghetti
 
@@ -105,13 +105,11 @@ Note taker: Davide Vaghetti
 
 ## Attendees
 
-* Mischa Salle
 * Davide Vaghetti
 * Uros Stevanovic
 * Marcus Hardt
 * Wolfgang Pempe
 * Etienne Dysli Metref
-* Hannah Short
 * Christos Kanellopoulus
 * Nicolas Liampotis
 

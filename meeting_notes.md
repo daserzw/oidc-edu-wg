@@ -58,11 +58,13 @@ compliancy of an RP will be based on offline and peer-to-peer communication.
 ## Working document
 
 Research and Education Profile for OpenID Connect:
+
  https://docs.google.com/document/d/1XH3pX4zU62S7VQ3JGTLDgSr4tb9vt6sDW0sgxD2Xi64/edit#
 
 ## References
 
 [1] https://docs.google.com/document/d/1FQcZEUsjRjVxR5X5uii_Ma9adFIe9ER3b4WE-wYo7hU/edit#
+
 [2] https://openid.net/specs/openid-connect-federation-1_0.html
 
 # 20210412

@@ -1,3 +1,4 @@
+* [20220223 meeting](#20220223)
 * [20210510 meeting](#20210510)
 * [20210412 meeting](#20210412)
 * [20210329 meeting](#20210329)
@@ -18,6 +19,77 @@
 * [20181217 meeting](#20181217)
 * [20181205 meeting](#20181205)
 * [20181119 meeting](#20181119)
+
+# 20220223
+
+OIDF R&E meeting 2022 Feb 23rd
+
+Note taker: Nicolas Liampotis
+
+## Attendees
+
+* Nicolas Liampotis
+* Stefan Helmert
+* Marcus Hardt
+* Mischa Salle
+* Jens Jensen
+* Ivan Kanakarakis
+
+## Agenda
+
+* Draft Research and Education Profile for OpenID Connect Specification
+
+## Working document
+
+Research and Education Profile for OpenID Connect:
+
+https://docs.google.com/document/d/1XH3pX4zU62S7VQ3JGTLDgSr4tb9vt6sDW0sgxD2Xi64/edit#
+
+## Discussion
+
+### Claims
+
+The discussion focused on the claims from the Personalized Access Entity
+Category [1], namely:
+* email
+* organization
+* affiliation
+
+For the email we propose the use of the standard `email` and
+`email_verified` claims for expressing the primary (preferred) email of
+the user. In addition, we have introduced the `emails` claim to allow
+expressing multiple email addresses. This extends the emails attribute
+defined in Section 4.1.2 of SCIM Core [2]. This can be mapped to the
+multi-valued `mail` LDAP attribute.
+
+For the organization we propose the following claims:
+* `org_name` - the primary (home) organisation of the End-User using
+the display name of the organisation
+* `org_domain` - the primary (home) organisation of the End-User using
+the domain name of the organisation, as defined in the SCHAC schema [3].
+
+For the affiliation information we propose the `affiliations` claim for
+expressing the person's affiliation(s) within particular security domains
+in broad categories such as student, faculty, staff, alum, etc, as
+defined in the eduPerson schema [4].
+
+A draft specification of these claims is available in Section 3 of the
+Working Document. The informaton required for registering the new
+claims in the IANA Registry is documented in Section 5.
+
+We also discussed how the claims can be mapped to SAML and SCIM
+attributes in the companion document [5].
+
+In our next meeting we will discuss the claims for expressing the
+user identifier and assurance information.
+
+## References
+
+[1] Personalized Access Entity Category: https://zenodo.org/record/5741746
+[2] SCIM Core: https://datatracker.ietf.org/doc/html/rfc7643
+[3] SCHAC Schema: https://wiki.refeds.org/display/STAN/SCHAC
+[4] eduPerson: https://wiki.refeds.org/display/STAN/eduPerson
+[5] https://docs.google.com/document/d/1FQcZEUsjRjVxR5X5uii_Ma9adFIe9ER3b4WE-wYo7hU/edit#
 
 # 20210510
 

@@ -86,9 +86,13 @@ user identifier and assurance information.
 ## References
 
 [1] Personalized Access Entity Category: https://zenodo.org/record/5741746
+
 [2] SCIM Core: https://datatracker.ietf.org/doc/html/rfc7643
+
 [3] SCHAC Schema: https://wiki.refeds.org/display/STAN/SCHAC
+
 [4] eduPerson: https://wiki.refeds.org/display/STAN/eduPerson
+
 [5] https://docs.google.com/document/d/1FQcZEUsjRjVxR5X5uii_Ma9adFIe9ER3b4WE-wYo7hU/edit#
 
 # 20210510

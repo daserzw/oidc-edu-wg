@@ -1,3 +1,5 @@
+* [20220323 meeting](#20220323)
+* [20220309 meeting](#20220309)
 * [20220302 meeting](#20220302)
 * [20220223 meeting](#20220223)
 * [20210510 meeting](#20210510)
@@ -20,6 +22,122 @@
 * [20181217 meeting](#20181217)
 * [20181205 meeting](#20181205)
 * [20181119 meeting](#20181119)
+
+# 20220323
+
+OIDF R&E meeting 2022 Mar 23rd
+
+Note taker: Nicolas Liampotis
+
+## Attendees
+
+* Nicolas Liampotis
+* Stefan Helmert
+* Marcus Hardt
+* Mischa Salle
+* Jens Jensen
+* Christos Kanellopoulus
+* Ivan Kanakarakis
+
+## Agenda
+
+* Draft Research and Education Profile for OpenID Connect Specification
+
+## Working document
+
+Research and Education Profile for OpenID Connect:
+
+https://docs.google.com/document/d/1XH3pX4zU62S7VQ3JGTLDgSr4tb9vt6sDW0sgxD2Xi64/edit#
+
+## Discussion
+
+We discussed the following topics:
+
+* Extending the `email` scope
+* Locations from which the OP can return the R&E profile Claims
+* R&E Extended Profile
+
+### Extending the `email` scope
+
+We need to clarify whether we can extend the standard `email` scope to include the new `emails` Claim (see Section 4) or introduce a new scope value (e.g. `emails` to request email information.
+
+### Locations from which the OP can return the R&E profile Claims
+
+Some of the Claims defined in the R&E profile cannot be returned by the OP from all locations (i.e. ID Token, Access Token, UserInfo \& Introspection endpoints). For instance, `acr`, `amr` and assurance related Claims in general cannot be returned from the UserInfo endpoint. To address this, we introduced a new column in the Claims table in Section 3 to identify the locations from which each Claim can be made available. 
+
+### R&E Extended Profile
+
+We agreed to keep the focus of this specification to R&E Core Profile attributes, namely those defined in Personalised Access Entity Category [1] and the authorisation Claims specified in [2]. Other Claims, for instance identity type and agreement with policies, will be moved to the R&E Extended Profile specification [3].
+
+## Actions
+
+* Nicolas Liampotis to follow up with RAF group about the proposed `asr` Claim for expressing assurance information
+* Nicolas Liampotis to follow up with RFC 9068 author on extending the OIDC claims request mechanism to allow the presence of Claims in access token
+* Christos Kanellopoulos to follow up with M. Jones/OIDC experts about extending the standard `email` scope for requesting the new `emails` Claim
+
+## References
+
+[1] Personalized Access Entity Category: https://zenodo.org/record/5741746
+
+[2] JSON Web Token (JWT) Profile for OAuth 2.0 Access Tokens: https://datatracker.ietf.org/doc/html/rfc9068
+
+[3] R&E Extended Profile for OpenID Connect: https://docs.google.com/document/d/1vCEHfQZ4O9O2xE1OMaBbXNdOQYv4mrc-VDoYLt0F7us/edit#
+
+
+# 20220309
+
+OIDF R&E meeting 2022 Mar 9th
+
+Note taker: Nicolas Liampotis
+
+## Attendees
+
+* Nicolas Liampotis
+* Stefan Helmert
+* Marcus Hardt
+* Mischa Salle
+* Jens Jensen
+* Ivan Kanakarakis
+
+## Agenda
+
+* Draft Research and Education Profile for OpenID Connect Specification
+
+## Working document
+
+Research and Education Profile for OpenID Connect:
+
+https://docs.google.com/document/d/1XH3pX4zU62S7VQ3JGTLDgSr4tb9vt6sDW0sgxD2Xi64/edit#
+
+## Discussion
+
+We discussed the following topics:
+
+* `emails` Claim
+* how to request Claims using scopes
+
+### Emails Claim
+
+For the `emails` Claim we introduced a dedicated section (3.1) for extending the definition of the Claim and also for improving the readability of the Claims table.
+
+### Requesting Claims using scopes
+
+To support requesting Claims using the scope-based mechanism we defined the following scope values:
+
+* `affiliation`: For requesting affiliation related Claims
+* `email`: For requesting email related Claims
+* `org`: For requesting organisation related Claims
+* `personalized`: For requesting Claims related to the attribute bundle defined in the REFEDS Personalized Access Entity Category [1].
+* `research_and_scholarship`: For requesting Claims related to the attribute bundle defined in the REFEDS Research & Scholarship Entity Category [2].
+
+Regarding the scopes for the REFEDS Personalized Access Entity Category and the R&S Entity Category, there was a proposal to use URL-like scope values (e.g. `https://refeds.org/category/personalized` and `https://refeds.org/category/research-and-scholarship` respectively) but the group decided to go with simple Scope names, i.e. `personalized` and `research_and_scholarship`.
+
+## References
+
+[1] Personalized Access Entity Category: https://zenodo.org/record/5741746
+
+[2] REFEDS Research & Scholarship Entity Category: https://refeds.org/category/research-and-scholarship
+
 
 # 20220302
 
